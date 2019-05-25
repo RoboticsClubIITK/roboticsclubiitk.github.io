@@ -1,0 +1,42 @@
+<div class="mdl-typography--text-justify">
+  <div class="project-grid mdl-grid">
+    <div class="project-content project-grid mdl-cell mdl-cell--2-offset-desktop mdl-cell--1-offset-tablet mdl-cell--8-col mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+      <div class="project-card mdl-card">
+        <div id="huro-tit" class="mdl-card__title mdl-card--expand" style="height: 230px; background:
+			url('../assets/images/projects/huro2.jpg') center / cover #46B6AC;">
+          <h1 class="mdl-card__title-text prj-tit">HURO</h1>
+        </div>
+        <div id="proj-huro" class="mdl-card__supporting-text">
+          <p style="font-size: large;">
+          The <b>Humanoid-Robot</b> project or <b>HURO</b> as we call it, is an effort by the students of IITK to enter into and make a contribution to the world of autonomous robotics. The team aims to make a humanoid robot capable of performing various pre-determined athletic tasks as required by the <b>FIRA-HURO</b> cup.<br><br> We have our <b>Machine-Learning</b> sub team working to provide tons of autonomous features to our robot and our <b>Voice-Localization</b> sub team working on a module which we plan to incorporate into our robot down the lane. We also have our <b>Simulation</b> team for making sure the algorithms run well and as expected, before actually running them on the main robot, also designing efficient algorithms for stable walking and control for our robotic system and our <b>Battery-Management-System (BMS)</b> team to optimize utilization of resources. We also use <b>ROS (Robot OS)</b> one of the best framework for writing robot software.
+          </p>
+        </div>
+        <div id="huro-exp" class="mdl-card__actions mdl-card--border mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" onclick="open_huro()">
+          More
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+<script type="text/javascript">
+      var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ? true : false;
+      var huro = document.getElementById('proj-huro');
+      var huro_exp= document.getElementById('huro-exp');
+      var huro_tit= document.getElementById('huro-tit');
+
+      function open_huro(){
+        huro.style.display = "block";
+        huro_exp.onclick = close_huro;
+        huro_exp.innerHTML = "Less";
+        huro_tit.style.height = "530px";
+      }
+
+      function close_huro(){
+        huro.style.display = "none";
+        huro_exp.onclick = open_huro;
+        huro_exp.innerHTML = "More";
+        huro_tit.style.height = "230px";
+      }
+
+</script>
