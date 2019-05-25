@@ -1,0 +1,32 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    {% include head.html %}
+  </head>
+
+  <body>
+
+  <!-- ############## script for facebook page plugin ################################ -->
+    {% include fb-script.html %}
+    <!-- ############## material layout starts here #################################### -->
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header ">
+
+      <!-- ################ header ############################################################### -->
+      {% include header.html %}
+
+      <!-- ########################## websites contents ################################################ -->
+      <div class="mdl-layout__content">
+
+        {{ content }}
+        
+        <!-- ################ footer ####################################################################### -->
+        {% include footer.html %}
+      </div>
+    </div>
+
+    <!--########### Newsfeeds ########################################################################## -->
+    {% include newsfeed.html %}
+    
+  </body>
+</html>

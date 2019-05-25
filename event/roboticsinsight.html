@@ -1,0 +1,73 @@
+---
+title: Robotics Insight(Summers) | Events
+layout: default
+style: robomonth
+---
+
+<div class="robomonth-card-cont mdl-typography--text-justify">
+  <!-- <div id="overlay"></div> -->
+  <div class="mdl-grid">
+    <div class="mdl-cell mdl-cell--2-offset-desktop mdl-cell--1-offset-tablet mdl-cell--8-col mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+      <div class="robomonth-card mdl-card mdl-shadow--2dp">
+        <div id="robomonth-tit" class="mdl-card__title" style="background:
+			url('../assets/images/ss/1.jpg') center / cover #46B6AC;">
+          <!-- <div id="overlay2"></div> -->
+        </div>
+        <div id="robomonth-content" class="mdl-card__supporting-text">
+          <div class="mdl-tabs mdl-js-tabs mdl-js-ripple-effect">
+            <div class="mdl-tabs__tab-bar">
+                <a href="#about-panel" class="mdl-tabs__tab is-active">About</a>
+                <a href="#schedule-panel" class="mdl-tabs__tab">Schedule</a>
+               <a href="#lec-panel" class="mdl-tabs__tab">Lectures</a>
+            </div>
+
+            <div class="mdl-tabs__panel is-active" id="about-panel">
+              <div class="cmt-card mdl-card">
+                {% for abt in site.data.riabt %}
+                <div class="mdl-card__supporting-text">
+                  {{abt.content}}
+                </div>
+                {% endfor %}
+            </div>
+          </div>
+
+            <div class="mdl-tabs__panel" id="schedule-panel">
+              <div class="sch-grid mdl-grid">
+                <table class="sch-table mdl-data-table mdl-js-data-table">
+                  <thead>
+                    <tr>
+                      <th class="mdl-data-table__cell--non-numeric">Event</th>
+                      <th class="mdl-data-table__cell--non-numeric">When</th>
+                      <th class="mdl-data-table__cell--non-numeric">Where</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {% for sch in site.data.risch %}
+                    <tr>
+                      <td class="mdl-data-table__cell--non-numeric">{{sch.name}}</td>
+                      <td class="mdl-data-table__cell--non-numeric">{{sch.when}}</td>
+                      <td class="mdl-data-table__cell--non-numeric">{{sch.where}}</td>
+                    </tr>
+                    {% endfor %}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+            <div class="mdl-tabs__panel" id="lec-panel">
+              <div class="cmt-card mdl-card">
+                {% for lec in site.data.rilec %}
+                <div class="mdl-card__supporting-text">
+                  {{lec.content}}
+                </div>
+                {% endfor %}
+            </div>
+            </div>
+                      
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>

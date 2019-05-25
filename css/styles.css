@@ -1,0 +1,360 @@
+/*##################################################
+##### Style sheet for theme ######################
+##### Designed by Shashi #########################
+##### Template uses jekyll and MDL framework #####
+##################################################*/
+
+a {
+  text-decoration: none;
+}
+
+.rsrc{
+  color: #757575;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+#feed-bar{
+  display: block;
+  position: relative;
+  width: 100%;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 2;
+    left: 0;
+    top: 10%;
+    width: 100%;
+    height: 80%;
+    background-color: rgba(0,0,0,0);
+}
+
+#feed-container{
+  display: block;
+  position: fixed;
+  width: 330px;
+  z-index: 1;
+  right: 0;
+  margin-right: 30px;
+  bottom: 0;
+}
+
+#feed-fb-box{
+  display: none;
+  position: relative;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+a img{
+  border: 0px;
+}
+
+::-moz-selection {
+  background-color: #6ab344;
+  color: #fff;
+}
+
+::selection {
+  background-color: #6ab344;
+  color: #fff;
+}
+
+.search-box .mdl-textfield__input {
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.header .mdl-menu__container {
+  z-index: 50;
+  margin: 0 !important;
+}
+
+.mdl-textfield--expandable {
+  width: auto;
+}
+
+.fab {
+  position: absolute;
+  right: 20%;
+  bottom: -26px;
+  z-index: 3;
+  background: #64ffda !important;
+  color: black !important;
+}
+
+.mobile-title {
+  display: none !important;
+}
+
+.logo-image {
+  height: 42px;
+  width: auto;
+}
+
+.header {
+  overflow: visible;
+  background-color: white;
+}
+
+.header .material-icons {
+  color: #767777 !important;
+}
+
+.header .mdl-layout__drawer-button {
+  background: transparent;
+  color: #767777;
+}
+
+.header .mdl-navigation__link {
+  color: #757575;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.navigation-container {
+  /* Simple hack to make the overflow happen to the left instead... */
+  direction: rtl;
+  order: 1;
+  width: 500px;
+  transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1),
+      width 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.navigation {
+  /* ... and now make sure the content is actually LTR */
+  direction: ltr;
+  justify-content: flex-end;
+  width: 800px;
+}
+
+.search-box.is-focused + .navigation-container {
+  opacity: 0;
+  width: 100px;
+}
+
+.navigation .mdl-navigation__link {
+  display: inline-block;
+  height: 60px;
+  line-height: 68px;
+  background-color: transparent !important;
+  border-bottom: 4px solid transparent;
+}
+
+.navigation .mdl-navigation__link:hover {
+  border-bottom: 4px solid #8bc34a;
+}
+
+.search-box {
+  order: 2;
+  margin-left: 16px;
+  margin-right: 16px;
+}
+
+.more-button {
+  order: 3;
+}
+
+.logo-font {
+  font-family: 'Love Ya Like A Sister', cursive;
+  line-height: 1;
+  color: #f5f5f5;
+  font-weight: 500;
+}
+
+.slogan {
+  font-size: 100px;
+  padding-top: 160px;
+}
+
+.sub-slogan {
+  font-size: 61px;
+  padding-top: 24px;
+}
+
+.create-character {
+  font-size: 50px;
+  padding-top: 320px;
+  font-family: 'PT Mono', monospace;
+}
+
+.create-character a {
+  text-decoration: none;
+  color: #767777;
+  font-weight: 300;
+}
+
+.robo-link {
+  text-decoration: none;
+  color: #8bc34a !important;
+}
+
+.robo-link:hover {
+  color: #7cb342 !important;
+}
+
+.robo-link .material-icons {
+  position: relative;
+  top: -1px;
+  vertical-align: middle;
+}
+
+.robo-alt-link {
+  text-decoration: none;
+  color: #64ffda !important;
+  font-size: 16px;
+}
+
+.robo-alt-link:hover {
+  color: #00bfa5 !important;
+}
+
+.robo-alt-link .material-icons {
+  position: relative;
+  top: 6px;
+}
+
+.main-footer {
+  background-color: #212121;
+  padding-top: 30px;
+  margin-top: 0px;
+  position: relative;
+}
+
+.main-footer a:hover {
+  color: #8bc34a;
+}
+
+.main-footer .mdl-mega-footer--top-section::after {
+  border-bottom: none;
+}
+
+.main-footer .mdl-mega-footer--middle-section::after {
+  border-bottom: none;
+}
+
+.main-footer .mdl-mega-footer--bottom-section {
+  position: relative;
+}
+
+.main-footer .mdl-mega-footer--bottom-section a {
+  margin-right: 2em;
+}
+
+.main-footer .mdl-mega-footer--right-section a .material-icons {
+  position: relative;
+  top: 6px;
+}
+
+.robo-link-menu:hover {
+  cursor: pointer;
+}
+
+.scl-btn {
+	width: 50px;
+	height: 50px;
+	padding: 0.1;
+	margin: 0;
+}
+
+.scl-btn-yt {
+	width: 50px;
+	height: 50px;
+	padding: 0;
+	padding-left: 5px;
+	padding-bottom: 5px;
+	margin: 0;
+}
+
+/*##### For Mobile #####*/
+@media (max-width: 900px) {
+  #feed-bar{
+    display: none;
+  }
+
+  #feed-container{
+    display: none;
+  }
+
+  #feed-fb-box{
+    display: none;
+  }
+
+  .header {
+    background-color: white;
+  }
+
+  .navigation-container {
+    display: none;
+  }
+
+  .title {
+    display: none !important;
+  }
+
+  .mobile-title {
+    display: block !important;
+    position: absolute;
+    left: calc(50% - 70px);
+    /*top: 12px;*/
+    left: 50px;
+    transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  /* WebViews in iOS 9 break the "~" operator, and WebViews in OS X 10.10 break
+     consecutive "+" operators in some cases. Therefore, we need to use both
+     here to cover all the bases. */
+  .search-box.is-focused ~ .mobile-title,
+  .search-box.is-focused + .navigation-container + .mobile-title {
+    opacity: 0;
+  }
+
+  .more-button {
+    display: none;
+  }
+
+  .search-box.is-focused {
+    width: calc(100% - 48px);
+  }
+
+  .search-box .mdl-textfield__expandable-holder {
+    width: 100%;
+  }
+
+  .hero-section {
+    height: 350px;
+  }
+
+  .slogan {
+    font-size: 36px;
+    margin: 0 16px;
+    padding-top: 45px;
+  }
+
+  .sub-slogan {
+    font-size: 20px;
+    margin: 0 16px;
+    padding-top: 8px;
+  }
+
+  .create-character {
+    padding-top: 130px;
+    font-size: 20px;
+  }
+
+  .create-character img {
+    height: 12px;
+  }
+
+  .fab {
+    display: none;
+  }
+
+  .main-footer .mdl-mega-footer--bottom-section {
+    display: none;
+  }
+}

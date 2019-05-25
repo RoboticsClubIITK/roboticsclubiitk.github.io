@@ -1,0 +1,55 @@
+<div class="header mdl-layout__header mdl-layout__header--waterfall mdl-layout--no-desktop-drawer-button">
+  <div class="mdl-layout__header-row layout-header">
+    <span class="title mdl-layout-title">
+      <a href="{{ site.url }}"><img class="logo-image" src={{ "/assets/images/logo.png" | absolute_url }}></a>
+    </span>
+    <span class="mobile-title mdl-layout-title">
+       <center><img class="logo-image" src={{ "/assets/images/mobile-logo.png" | absolute_url }}></center>
+    </span>
+    <!-- Add spacer, to align navigation to the right in desktop -->
+    <div class="mdl-layout-spacer"></div>
+    <!-- <div class="search-box mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right mdl-textfield--full-width">
+      <label class="mdl-button mdl-js-button mdl-button--icon" for="search-field">
+        <i class="material-icons">search</i>
+      </label>
+      <div class="mdl-textfield__expandable-holder">
+        <input class="mdl-textfield__input" type="text" id="search-field">
+      </div>
+    </div> -->
+    <!-- Navigation -->
+    <div class="navigation-container">
+      <nav class="navigation mdl-navigation">
+        <a class="mdl-navigation__link mdl-typography--text-uppercase nav-blog" href="{{ site.url }}/blog/">Blog</a>
+        <a class="mdl-navigation__link mdl-typography--text-uppercase nav-proj" href="{{ site.url }}/projects/">Projects</a>
+        <div id="resource" class="mdl-menu__item mdl-navigation__link mdl-typography--text-uppercase nav-tut">Resources</div>
+        <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect" for="resource">
+          <li class="mdl-menu__item"><a class="rsrc" href="{{ site.url }}/tutorials/">Tutorials</a></li>
+          <li class="mdl-menu__item"><a class="rsrc" target="_blank" href="https://goo.gl/forms/2Ctk9cr2bJRNnFXd2">Component Issue</a></li>
+        </ul>
+        <a class="mdl-navigation__link mdl-typography--text-uppercase nav-team" href="{{ site.url }}/team/">Team</a>
+        <a class="mdl-navigation__link mdl-typography--text-uppercase nav-advisors" href="{{ site.url }}/faculty/">Faculty</a>
+        <a class="mdl-navigation__link mdl-typography--text-uppercase nav-alumni" href="{{ site.url }}/alumni/">Alumni</a>
+        <a class="mdl-navigation__link mdl-typography--text-uppercase nav-event" href="{{ site.url }}/#event">Events</a>
+        <!-- <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Know How??</a> -->
+      </nav>
+    </div>
+    
+  </div>
+</div>
+<!-- ####################### drawer for mobile view ########################################### -->
+<div class="mdl-layout__drawer">
+  <span class="mdl-layout-title">
+     <a href="{{ site.url }}"><img class="logo-image" src={{ "/assets/images/drawer-logo.png" | absolute_url }}></a>
+  </span>
+  <nav class="drawer mdl-navigation">
+    <a class="mdl-navigation__link mdl-typography--text-uppercase nav-blog" href="{{ site.url }}/blog/">Blog</a>
+    <a class="mdl-navigation__link mdl-typography--text-uppercase nav-proj" href="{{ site.url }}/projects/">Projects</a>
+    <a class="mdl-navigation__link mdl-typography--text-uppercase nav-tut" href="{{ site.url }}/tutorials">Tutorials</a>
+    <a class="mdl-navigation__link mdl-typography--text-uppercase nav-team" href="{{ site.url }}/team/">Team</a>
+    <a class="mdl-navigation__link mdl-typography--text-uppercase nav-team" href="{{ site.url }}/faculty/">Faculty</a>
+    <a class="mdl-navigation__link mdl-typography--text-uppercase nav-alumni" href="{{ site.url }}/alumni/">Alumni</a>
+    <!-- <a class="mdl-navigation__link mdl-typography--text-uppercase nav-event" href="{{ site.url }}/#event/">Events</a> -->
+    <a class="mdl-navigation__link mdl-typography--text-uppercase nav-tut" target="_blank" href="https://goo.gl/forms/2Ctk9cr2bJRNnFXd2">Component Issue</a>
+    <!-- <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Know How??</a> -->
+  </nav>
+</div>

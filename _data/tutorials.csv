@@ -1,0 +1,9 @@
+name,one,two,three,link
+Introduction to IMU,Basics of IMU,Calibration,,http://students.iitk.ac.in/roboclub/lectures/IMU.pdf
+Introduction to PID,Terminology,PID Controller,Implementation,http://students.iitk.ac.in/roboclub/lectures/PID.pdf
+Introduction to Arduino,Microcontrollers,Arduino: Introduction,Arduino IDE,http://students.iitk.ac.in/roboclub/lectures/Microcontrollers_Arduino.pdf
+Introduction to Designing,Inventor: Basics,,,http://students.iitk.ac.in/roboclub/lectures/INVENTOR.pdf
+Sensors & Actuators,Quantization,Different Sensors,Different Sensors,http://students.iitk.ac.in/roboclub/lectures/Sensors%20and%20Actuators.pdf
+Robotricks Takneek'16,Mechanical Designs,Sensors,Logic Gates,http://students.iitk.ac.in/roboclub/lectures/Takneek'16.pdf
+Introduction to Robotics,What is a Robot?,Classification of Robots,Mechanical Design,http://students.iitk.ac.in/roboclub/lectures/Introduction%20to%20Robotics.pdf
+Embedded Systems,VAVER 1.2,Image Processing,Voice Recognition,http://students.iitk.ac.in/roboclub/lectures/Embedded%20Systems.pdf

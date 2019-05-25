@@ -1,0 +1,71 @@
+---
+title: Blog
+layout: default
+style: blog
+---
+
+<a name="top"></a>
+<div class="hero-section "></div>
+<!--########## This loops through the paginated posts #####################################-->
+{% for post in paginator.posts %}
+
+<div class="post-section mdl-typography--text-justify">
+  <div class="post-grid mdl-grid">
+    <div class="post-content post-grid mdl-cell mdl-cell--3-offset-desktop mdl-cell--2-offset-tablet mdl-cell--6-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
+      <div class="post-card mdl-card">
+        <div class="mdl-card__title  mdl-shadow--2dp">
+          <h2 class="mdl-card__title-text"><b>{{ post.title }}</b></h2>
+        </div>
+        <div class="mdl-card__supporting-text">
+          {{ post.excerpt }}
+        </div>
+        
+        <div class="mdl-card__actions mdl-card--border">
+          <a href="{{ site.url }}{{ post.url }}" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+            Read More
+          </a>
+          <div class="mdl-layout-spacer"></div>
+          <button class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" disabled style="color: #717171">
+          {{ post.author }} || {{ post.date | date: "%B %e, %Y" }}
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+{% endfor %}
+
+<!--################### Pagination links #################################################-->
+<div class="post-section mdl-typography--text-justify">
+  <div class="post-grid mdl-grid">
+    <div class="post-content paginator-btn post-grid mdl-cell mdl-cell--3-offset-desktop mdl-cell--1-offset-tablet mdl-cell--6-col mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+      {% if paginator.previous_page %}
+	    <a href="{{ site.url }}{{ paginator.previous_page_path }}" class="previous">
+	    	<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+	          Prev
+	        </button>
+	    </a>
+	  {% else %}
+	    <button class="mdl-button mdl-js-button mdl-button--raised" disabled>
+			Prev
+		</button>
+	  {% endif %}
+	  <!-- <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span> -->
+	  <div class="mdl-layout-spacer"></div>
+	  {% if paginator.next_page %}
+	    <a href="{{ site.url }}{{ paginator.next_page_path }}" class="next">
+	    	<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+	          Next
+	        </button>
+	    </a>
+	  {% else %}
+	    <button class="mdl-button mdl-js-button mdl-button--raised" disabled>
+			Next
+		</button>
+	  {% endif %}
+
+    </div>
+  </div>
+</div>

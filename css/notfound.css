@@ -1,0 +1,14 @@
+.hero-section {
+  position: relative;
+  height: 800px;
+  width: auto;
+  background-color: #f3f3f3;
+  background: url('../assets/images/not-found.gif') center 30% no-repeat;
+  background-size: cover;
+}
+
+@media (max-width: 900px) {
+	.hero-section {
+	    height: 350px;
+	}
+}

@@ -1,0 +1,119 @@
+.navigation .nav-advisors {
+  border-bottom: 4px solid #8bc34a;
+}
+
+.team-sec {
+  position: relative;
+  font-family: 'Love Ya Like A Sister', cursive;
+  line-height: 1;
+  font-weight: 500;
+  font-size: 60px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.cordi-section > .team-sec {
+  color: #f5f5f5;
+}
+
+.cordi-section {
+  position: relative;
+  background-color: #263238;
+  padding-bottom: 50px;
+}
+
+.cordi-card.mdl-card {
+  width: 100%;
+  margin: auto;
+  height: 23vw;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+
+}
+
+.cordi-card:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.cordi-details{
+  font-family: 'Saira Condensed', sans-serif;
+  background-color: #fff;
+  color: #616161;
+  padding: 15px;
+  font-size: 18px;
+}
+.cordi-name{
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 18px;
+  line-height: 1.2;
+  color: #f3f3f3;
+  padding: 15px;
+  background-color: #EF5350;
+}
+
+.cordi-card > .mdl-card__title {
+  color: #fff;
+}
+
+.seci-section > .team-sec {
+  color: #414141;
+}
+
+.seci-section {
+  position: relative;
+  background-color: #EEEEEE;
+  padding-bottom: 50px;
+}
+
+.seci-card.mdl-card {
+  width: 100%;
+  margin: auto;
+  height: 21vw;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.seci-card:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+
+}
+
+.seci-details{
+  font-family: 'Saira Condensed', sans-serif;
+  background-color: #fff;
+  color: #616161;
+  padding: 15px;
+  font-size: 18px;
+}
+.seci-name{
+  font-family: 'Archivo Black', sans-serif;
+
+  font-size: 18px;
+  line-height: 1.2;
+  color: #f3f3f3;
+  padding: 15px;
+  background-color: #EF5350;
+}
+
+.seci-card > .mdl-card__title {
+  color: #fff;
+}
+
+/*##### For Mobile #####*/
+@media (max-width: 900px) {
+
+	.seci-card.mdl-card{
+		height: 350px;
+	}
+
+	.cordi-card.mdl-card{
+		height: 350px;
+	}
+
+
+  .team-sec {
+    font-size: 40px;
+    margin: 0;
+    padding-top: 20px;
+  }
+}

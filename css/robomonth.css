@@ -1,0 +1,90 @@
+.robomonth-card-cont{
+  width: 100%;
+  background: #263238; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(135deg, #1B5D70, #6FA623); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(135deg, #1B5D70, #6FA623); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(135deg, #1B5D70, #6FA623); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(135deg, #1B5D70, #6FA623); /* Standard syntax (must be last) */
+
+}
+
+.cmt-tit{
+  background-color: #f0f0f0;
+}
+
+.sch-table{
+  width: 95%;
+  border-width: thin;
+  margin: 2.5%;
+}
+
+.sch-grid{
+  overflow: scroll;
+}
+
+.lec-grid{
+  width: 95%;
+  margin: 2.5%;
+}
+
+.lec-btn{
+  background-color: #00AA8D;
+  color: #fff;
+  padding: 25px;
+  height: auto;
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.lec-btn:hover{
+  background-color: #00BF9A;
+}
+
+.cmt-card{
+  width: 95%;
+  height: auto;
+  border-width: thin;
+  margin: 2.5%;
+  border-style: solid;
+  border-color: #f0f0f0;
+}
+
+#overlay {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	padding: 0;
+	margin: 0;
+	background: transparent url(../assets/images/ss/pattern.png) repeat top left;
+}
+
+.robomonth-card{
+  width: 100%;
+}
+
+#robomonth-tit{
+  height: 25vw;
+  padding: 0;
+}
+
+#overlay2 {
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	padding: 0;
+	margin: 0;
+  background-color: rgba(0,0,0, 0.5)
+}
+
+#robomonth-content{
+  width: 100%;
+  padding: 0;
+}
+
+@media (max-width: 900px) {
+  #robomonth-tit{
+    height: 200px;
+  }
+}

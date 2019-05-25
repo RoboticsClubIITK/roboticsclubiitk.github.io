@@ -1,0 +1,23 @@
+- name: Sensors Lecture
+  when: 8PM, 11th Oct, Wed
+  where: L1
+
+- name: Abstract Submission Deadline<li>Follow me Around<li>Image Processing
+  when: 15th Oct
+  where: <li><a href="https://goo.gl/forms/8Ln2KaWL0KCbr2u63">Image Processing</a><li><a href="https://goo.gl/forms/vF2o94Pl0lEtfwRn2">Follow Me Around</a>
+
+- name: Lecture on Basics of Designing
+  when: 17th Oct
+  where:
+
+- name: Lecture on Image Processing
+  when: 18th Oct
+  where:
+
+- name: ROS Workshop
+  when: 24th Oct
+  where:
+
+- name: Simulation Workshop
+  when: 25th Oct
+  where:
