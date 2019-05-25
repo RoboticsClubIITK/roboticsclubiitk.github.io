@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="description" content="Robotics Club | IITK">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-<title>Home | Robotics Club </title>
+<title>Enhancing Vision of Autonomous Systems | Robotics Club </title>
 
 <!-- Page styles -->
 <link rel="shortcut icon" href=https://roboticsclubiitk.github.io/assets/images/favicon.ico type="image/x-icon">
@@ -16,8 +16,8 @@
 <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
 <link rel="stylesheet" href="https://roboticsclubiitk.github.io/css/styles.css">
 <link rel="stylesheet" href="https://roboticsclubiitk.github.io/css/syntax.css">
-<link rel="stylesheet" href="https://roboticsclubiitk.github.io/css/home.css">
 <link rel="stylesheet" href="https://roboticsclubiitk.github.io/css/.css">
+<link rel="stylesheet" href="https://roboticsclubiitk.github.io/css/blog.css">
 
   </head>
 
@@ -102,93 +102,70 @@
       <div class="mdl-layout__content">
 
         <a name="top"></a>
-<div class="ss-container">
-  <ul class="cb-slideshow">
-      <li><span>Image 01</span><div><a target="_blank" href="https://roboticsclubiitk.github.io/event/roboticsinsightwinters.html">Robotics Insight (Fall '18)</a></div></li>
-      <li><span>Image 02</span><div><a target="_blank" href="https://roboticsclubiitk.github.io/event/takneek18.html">Takneek' 18</a></div></li>
-      <li><span>Image 03</span><div><a target="_blank" href="https://roboticsclubiitk.github.io/event/robomonth17.html">RoboMonth' 17</a></div></li>
-      <!-- <li><span>Image 04</span><div><a href="">Introductory Workshop</a></div></li> -->
-      <!-- <li><span>Image 03</span><div><a href="https://docs.google.com/presentation/d/1Swi-XY3ekWI3NLpNgatd1740iGH1Dqc-DwlGuaGJ_9w/edit#slide=id.p">Introductory Lecture</a></div></li> -->
-  </ul>
-</div>
+<div class="hero-section"></div>
 
-<div class="about-section mdl-typography--text-justify">
-  <div class="about-grid mdl-grid">
-    <div class="about-content about-grid mdl-cell mdl-cell--2-offset-desktop mdl-cell--8-col mdl-cell--8-col-tablet mdl-cell--4-col-phone">
-      <h1 class="mdl-typography--display-1-color-contrast" style="font-family: 'Orbitron', sans-serif; font-size: xx-large;">About Us...</h1>
-      <p class="abt-cnt mdl-typography--subhead-color-contrast " style="font-family: 'PT Mono', monospace;">
-        What if you could build a <b>R2D2</b>? How about <b>Transformers</b>? Or a <b>WALL-E</b>? <br><br>
-		If you have ever even secretly aspired to build your own robot, then the <b>Robotics Club, IITK</b> is the place for you!
-		We are a diverse group of over-enthused robotics nerds who find roots across all academic departments of the institute as well as ‘seniority’. The club is a student body which finds its place under the Science and Technology Council, Student Gymkhana, IIT Kanpur. Interested in what kind of work we do? We build robots for academic purposes, to compete at both national and international events or just out of plain interest. Check out our <a href="https://roboticsclubiitk.github.io/projects/">project</a> page and <a href="">achievements</a>. <br><br>
-		Having those newbie jitters? No worry. We are here to induct you into the rapidly expanding world of robotics. One on one guidance, workshops and tutorials along with tools, equipments, components and workspace eagerly await you!<br><br>
-		<b>#HappyRoboting</b>
-      </p>
+<div class="post-page post-section mdl-typography--text-justify">
+  <div class="post-grid mdl-grid">
+    <div class="post-content post-grid mdl-cell mdl-cell--3-offset-desktop mdl-cell--1-offset-tablet mdl-cell--6-col mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+      <div class="post-card mdl-card">
+        <div class="mdl-card__title  mdl-shadow--2dp">
+          <h1 class="mdl-card__title-text">Enhancing Vision of Autonomous Systems</h1>
+        </div>
+        <div class="mdl-card__supporting-text">
+          <p>Most of my robotics experience came from my involvement in Team IGVC last year. Recruited as a member of Team Robocon, we shifted to IGVC in October due to conflicting competition dates of the former. You can read about IGVC and its objective on its official website www.igvc.org.
+<!--more--></p>
+
+<p>The October was spent in understanding the problem statement, design rules, reading previous year design reports of participated teams and news forums. A basic construct I understood was that we were supposed to build an autonomous vehicle. Daily, we read the news about Tesla Autopilot, Driverless Car, Volvo Drive Me spending billions to make our autonomous car future a reality. Hence, the objective of this problem excited me. There were several modules on which one could work on. It was Localization and Mapping, Lane Detection, Motion Planning and Control. It wasn’t tough for me to snatch one end of the problem and decided to work on Lane Detection and Obstacle Elimination problem. It was because in my summer project I applied some basic processes of image processing and vision on Torch. As the work kicked off, the vision team revised some basics of OpenCV, installations, etc. For a couple of weeks, we worked on a sample IGVC lane video, only to get introduced to the drawbacks of using heuristic methods. We realized that we should stop checking Hit-and-Trial approach in such problems. One of the cons of using only heuristic approaches was that one could easily find several cases where it won’t work and in practicality, it obviously didn’t. Actually, for us realizing that solution of this problem using any obvious approach won’t work was tough but necessary. We needed to grasp some common theoretical concepts of computer vision, so we watched video tutorials of Prof. Mubarak Shah, UCF on YouTube. Most of our failed attempts were already described there as for why don’t they work and what more should be done. In practical testing at open environments, we got introduced to problems of changing weather conditions, soil patches, non-uniform grass, rough terrains, camera height, etc. Due to increased complexity, we were constrained to limited directions to think for the solution so that we don’t waste much time on an approach sure to fail. Not always one should search for an ultimate and easy solution to a tough problem because if the final solution has to get simplified it would automatically be done. A way to note down information to be extracted from lane video was to think how a human brain solves such a problem and what the input it remembers to return lane direction is. Often we used to read previously worked approaches on similar problems rather than always thinking from scratch. Documenting these approaches was an important task as weeks or months later we may want to know what we did. A good method was to neatly code it into functions so that directly loading the required library was sufficient to get their access. It also makes the code pretty understandable.</p>
+
+<p>Another problem was obstacle detection. Blacking out some foreign color or some linear combination of several color components used to severely fail here returning false obstacles and hence cropping out some lane data. In order to tackle out this problem, we managed to incorporate LiDAR laser scan data. This gave us access to easily discriminate obstacles in the camera frame. Our final obstacle elimination algorithm was hence pretty much reliable as it would precisely crop out the obstacles.</p>
+
+<p>Being a team member of IGVC has taught me a lot of things. Most important being Time Management. It was almost daily I used to wake up in the morning and note down a scheduled checklist for the whole day. One could hardly waste any time in such a situation. As one amongst 17 team members, it was the first time I got the opportunity to work in such large team. It is always a persistent experience working in such an enthusiastic environment. Thinking about how to approach a problem taught me that why sometimes intuition fails. It is because we don’t have the idea of all the problems one could face while approaching that problem or falsely simplifying it. As Einstein quoted, “Everything should be made as simple as possible, but not simpler.” If we realize that the solution to a problem won’t be easy, generally it doesn’t help to think from scratch. There are vast sources on the internet about such problems, people brainstorming on forums and research papers. Spending time wisely to read these materials always provides us with an offset edge as we get to know from where to start. So, our vision problem, in the end, wasn’t actually a coding problem but an algorithmic problem. Directly jumping on writing codes, debugging, etc. just to result in a failed attempt is nothing worth more than just a waste of time. Seniors and Professors were very helpful in the whole journey, and every member of the Team IGVC has been a source of motivation for me.</p>
+
+<p>In these four years, not every student may get to apply things taught in his/her coursework. In Team IGVC one could learn anything helpful, see if it could work and apply it. The experience of the things going right according to your way is always satisfying. Not always do things work, so keep the morale high. In Elon Musk’s words, “If something is important enough, even if the odds are against you, you should still do it.” The first step is to establish that something is possible, then probability will occur.</p>
+
+        </div>
+        <div class="mdl-card__actions mdl-card--border">
+	    	<a href="https://roboticsclubiitk.github.io/blog/" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+	        	Back
+          	</a>
+          <div class="mdl-layout-spacer"></div>
+          <button class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" disabled>
+          Pritesh Kumbhare, EE, Y15 || December  2, 2017
+          </button>
+        </div>
+      </div>
+
     </div>
   </div>
 </div>
 
-<a name="event"></a>
-<div id="events" class="event-section mdl-typography--text-center">
-  <div class="event-grid mdl-grid">
 
-    <div class="event-title mdl-cell mdl-cell--3-col mdl-cell--2-col-tablet mdl-cell--4-col-phone">
-      <br>EVENTS
-      <p style="font-size: 35%; color: #EEEEEE; margin: 0;">MARK YOUR CALENDAR</p>
-      <i class="material-icons">date_range</i>
-    </div>
+<div class="post-page post-section mdl-typography--text-justify">
+  <div class="post-grid mdl-grid">
+    <div class="post-content post-grid mdl-cell mdl-cell--3-offset-desktop mdl-cell--1-offset-tablet mdl-cell--6-col mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+      <div class="comment-card post-card mdl-card">
+        <div id="disqus_thread"></div>
+		<script>
 
-    <div class="mdl-cell mdl-cell--3-col mdl-cell--2-col-tablet mdl-cell--4-col-phone">
-      <div class="event-cards mdl-card mdl-shadow--2dp">
-        <div class="mdl-card__title mdl-card--expand" style="background: url('https://roboticsclubiitk.github.io/assets/images/event/roboticsinsight2.jpg') center 50% no-repeat; background-size: cover;">
-          <h1 class="mdl-card__title-text" style="color: #f3f3f3;">Robotics Insight (Winters '18)</h1>
-        </div>
-        <div class="mdl-card__supporting-text">
-          Learn the skills that some only dream of..
-        </div>
-        <div class="mdl-card__actions mdl-card--border">
-          <a target="_blank" href="https://roboticsclubiitk.github.io/event/roboticsinsightwinters.html" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
-            Know More
-          </a>
-        </div>
+		/**
+		*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+		*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+		/*
+		var disqus_config = function () {
+		this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+		this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+		};
+		*/
+		(function() { // DON'T EDIT BELOW THIS LINE
+		var d = document, s = d.createElement('script');
+		s.src = 'https://http-students-iitk-ac-in-roboclub.disqus.com/embed.js';
+		s.setAttribute('data-timestamp', +new Date());
+		(d.head || d.body).appendChild(s);
+		})();
+		</script>
+		<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
       </div>
     </div>
-
-    <div class="mdl-cell mdl-cell--3-col mdl-cell--2-col-tablet mdl-cell--4-col-phone">
-      <div class="event-cards mdl-card mdl-shadow--2dp">
-        <div class="mdl-card__title mdl-card--expand" style="background: url('https://roboticsclubiitk.github.io/assets/images/ss/3.jpg') center 30% no-repeat; background-color: #263238; background-size: cover;">
-          <h1 class="mdl-card__title-text" style="color: #f3f3f3;">Takneek' 18</h1>
-        </div>
-        <div class="mdl-card__supporting-text">
-          On the Shoulders of Giants
-        </div>
-        <div class="mdl-card__actions mdl-card--border">
-          <a target="_blank" href="https://roboticsclubiitk.github.io/event/takneek18.html" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
-            Know More
-          </a>
-        </div>
-      </div>
-    </div>
-
-    <div class="mdl-cell mdl-cell--3-col mdl-cell--2-col-tablet mdl-cell--4-col-phone">
-      <div class="event-cards mdl-card mdl-shadow--2dp">
-        <div class="mdl-card__title mdl-card--expand" style="background: url('https://roboticsclubiitk.github.io/assets/images/event/robomonth.jpg') center 30% no-repeat; background-size: cover;">
-          <h1 class="mdl-card__title-text" style="color: #f3f3f3;">RoboMonth</h1>
-        </div>
-        <div class="mdl-card__supporting-text">
-          October'17 = Robotics
-        </div>
-        <div class="mdl-card__actions mdl-card--border">
-          <a target="_blank" href="https://roboticsclubiitk.github.io/event/robomonth17.html" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
-            Know More
-          </a>
-        </div>
-      </div>
-    </div>
-
-  
-
-    
-
   </div>
 </div>
 

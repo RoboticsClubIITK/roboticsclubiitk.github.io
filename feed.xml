@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.5.0">Jekyll</generator><link href="https://roboticsclubiitk.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://roboticsclubiitk.github.io/" rel="alternate" type="text/html" /><updated>2019-05-25T10:33:38+05:30</updated><id>https://roboticsclubiitk.github.io/</id><title type="html">Robotics Club</title><entry><title type="html">How to win Takneek 101</title><link href="https://roboticsclubiitk.github.io/2018/07/19/How-to-win-Takneek-101.html" rel="alternate" type="text/html" title="How to win Takneek 101" /><published>2018-07-19T00:00:00+05:30</published><updated>2018-07-19T00:00:00+05:30</updated><id>https://roboticsclubiitk.github.io/2018/07/19/How%20to%20win%20Takneek%20101</id><content type="html" xml:base="https://roboticsclubiitk.github.io/2018/07/19/How-to-win-Takneek-101.html">&lt;p&gt;Go back to your first Takneek. How many of you ended up short-circuiting your entire board? How many of you didn’t have ‘enough time’ to debug? Did you even know how to debug? How many could not get the components you needed? Could you complete your project?&lt;/p&gt;
+
+&lt;p&gt;The answers to these questions make it to the winner’s podium when you ask someone why they ‘left’ the SnT Council.  My Takneek project had not worked. No one is to blame, but I chose to stick around. My reason was that my dad is a HAM radio hobbyist and a home brewer (HAM radio slang term for someone who builds gadgets at home). I wanted to know what my dad enjoyed so much.
+&lt;!--more--&gt;
+I have seen my dad working - a desk full of all values of resistors, capacitors that can ever come to use, soldering iron, magnifying glass, a relatively expensive multimeter, all sorts of antenna cables/wires, connectors, a ‘khazaana’ of all sizes of screws/nuts, etc. I have seen him work with such precision that I don’t remember if anything he fixed/built failed.&lt;/p&gt;
+
+&lt;p&gt;On the contrary, here’s what people in SnT council do - a freshie, learning to solder directly on his project and ending up soldering on the wrong side. All LiPo batteries swelled up because someone didn’t know the minimum safe voltage. DMMs ran out of battery because no one chose to switch it off. Soldering iron burnt its insulation. The list goes on.&lt;/p&gt;
+
+&lt;p&gt;What we are lacking is the basics. And because of it, we are failing as a community.  Takneek’s first year problem statements are NOT easy. That is the reason why only so few people can complete it and the winner is decided from among them. Here’s a checklist of why I think the people who won could win Robotricks:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;You have all the components; you have a plan - a full-proof design - how to build it - people who will be doing it.&lt;/li&gt;
+  &lt;li&gt;You have a 5V adapter to test your electronics.&lt;/li&gt;
+  &lt;li&gt;You have a DMM to debug. Or you could make do with an LED.&lt;/li&gt;
+  &lt;li&gt;You have had the time to test run. Or your controller was born good.&lt;/li&gt;
+  &lt;li&gt;You have a 12V DC supply to test your locomotion circuit.&lt;/li&gt;
+  &lt;li&gt;You know how to solder/drill&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;OR&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;You have a ‘source’ to get all/some of the above done.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Here is the fault line - we want to build a complete working robot with a lifting mechanism within one week without any experience WITH the semester course load. How stupid can you get?
+If today, I were to participate in Robotricks, I would:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Start early (at least try to)&lt;/li&gt;
+  &lt;li&gt;Google everything! It’s 2018. You can find video tutorials for everything from soldering, drilling, DC Motor circuit, How to use a DMM, etc.&lt;/li&gt;
+  &lt;li&gt;Get all the things I need. (Can pretty much depend on senior for this one)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;So, here is how to win Takneek - The problem statements are NOT new - they cannot be. It’s all there on the internet. Get your basics right (aka first watch a tutorial) and start working!&lt;/p&gt;
+
+&lt;p&gt;In the end, if you don’t end up winning, please don’t come and kill me. I am sure if you follow the above recipe, you’d be better placed than a lot of others in the field of engineering itself. You’d have hands-on experience of doing things, and doing them the right way. Maybe that experience leads you to someplace good. (I scored an internship partly due to a project under the council :-D )&lt;/p&gt;
+
+&lt;p&gt;If you’re still reading and have made it to this point, here’s a bonus point for you - A lot of people seem to think that SnT Club projects are not worth it, that they’d rather work with a Professor. Well, that’s not true. As in the case of the Robotics Club, the projects are very varied. A lot of those which get heard about generally involve mass participation - introductory workshop, Techkriti projects, Takneek etc. Such projects are designed to be short and sweet. On the other hand, long-term projects like the Humanoid Project take in considerable time and effort. The team has been in constant touch with the faculty of the institute, have read all sorts of literature on BiPed locomotion, are working with really expensive servos, etc. I am not sure how many of you knew this.&lt;/p&gt;
+
+&lt;p&gt;Signing off. Hope you read this line too :-P&lt;/p&gt;</content><author><name>Bhuvi Gupta, IITK, EE, Y15 || Ex-coordinator, Robotics Club</name></author><summary type="html">Go back to your first Takneek. How many of you ended up short-circuiting your entire board? How many of you didn’t have ‘enough time’ to debug? Did you even know how to debug? How many could not get the components you needed? Could you complete your project? The answers to these questions make it to the winner’s podium when you ask someone why they ‘left’ the SnT Council. My Takneek project had not worked. No one is to blame, but I chose to stick around. My reason was that my dad is a HAM radio hobbyist and a home brewer (HAM radio slang term for someone who builds gadgets at home). I wanted to know what my dad enjoyed so much.</summary></entry><entry><title type="html">What is a Robot in IITK</title><link href="https://roboticsclubiitk.github.io/2018/01/12/What-is-a-Robot-in-IITK.html" rel="alternate" type="text/html" title="What is a Robot in IITK" /><published>2018-01-12T00:00:00+05:30</published><updated>2018-01-12T00:00:00+05:30</updated><id>https://roboticsclubiitk.github.io/2018/01/12/What%20is%20a%20Robot%20in%20IITK</id><content type="html" xml:base="https://roboticsclubiitk.github.io/2018/01/12/What-is-a-Robot-in-IITK.html">&lt;p&gt;I am Deepak Gangwar, a senior undergraduate student from Department of Electrical Engineering, IIT Kanpur. The following blog contains my journey, interests and ambitions in Robotics and related technical fields besides the opportunities in these fields in IITK. There might be more blogs to come however probability of it happening is nearly negligible.
+&lt;!--more--&gt;
+Most of the people are eager to know about robots and computers and how they function. I was no different. During my orientation in IITK, I saw many club projects but a big robot attracted my attention the most because it seemed to me the coolest and most complicated one. Later I came to know that it was built for an international competition by an undergraduate student team of institute named Team ROBOCON (now known as Team IGVC). So I appeared in recruitment procedure and got selected in the team (Still surprised! How? :D).
+As part of the team, through the years, I have learnt a lot about electronics and robotics. In the meantime, I finally owned an Android smartphone so I developed interest in Linux and Android. That is how I became android and robotics enthusiast during my very first semester at IITK. I had my teammates and seniors to guide me in robotics, while on the other hand I had to learn about android/linux on my own. I am still a part of the team and learning new things in both areas continuously.&lt;/p&gt;
+
+&lt;p&gt;In this part I am listing the various opportunities to learn about it in IITK. First of all there are 2 teams which are developing autonomous vehicles
+Team IGVC (Intelligent Ground Vehicle Challenge)
+Team AUV (Autonomous Underwater Vehicle)
+Work of both the teams is research oriented with a well defined final goal. Both team deals with computer vision, sensor fusion, localization etc. Generally the recruitment is done on the basis of a written test followed by interviews. For any specific detail, contact present team members.
+Apart from teams, you can learn and sharpen these skills in the following clubs also
+Robotics Club
+Electronics Club
+One should attend all the useful lectures and workshops organised by the clubs. It helps in making a foundation of knowledge. Clubs are doing some long term project e.g. HURO. The process of recruitment is similar to teams and depends on the project. If you want to try robotics and don’t want to commit to a team or long term project then you should do short term projects in clubs.&lt;/p&gt;
+
+&lt;h4 id=&quot;what-is-robot&quot;&gt;What is Robot?&lt;/h4&gt;
+
+&lt;p&gt;According to wikipedia “A  robot is a machine —especially one programmable by a computer— capable of carrying out a complex series of actions automatically.”
+So what hardware is necessary for a robot? Generally the main components of a robot are following -
+Mechanical Structure
+Processing Power (Computers and/or Microcontrollers)
+Sensors
+Camera
+GPS
+Inertial Measurement Unit (IMU)
+Range sensors
+Application Specific sensors
+Above sensor list is for a robot which can locomote in an indoor/outdoor setting. I will not talk about mechanical structure as it is not my area of interest. Apart from a mechanical structure, all the required components are easily available to everyone now a days in the form of a smartphone. It has camera, GPS, IMU and CPU. So the mechanical structure along with a smartphone can complete a robot (Here I am including actuator drivers in mechanical structure). So why are people not doing it? Actually people are doing it. Our Robotics club has also started a project this year for the same. Google launched a R&amp;amp;D project to include even range sensors (Depth camera) in a smartphone. The project is named Tango. You can even buy Tango enabled smartphones from Nvidia, Lenovo and Asus.
+The main motivation of this approach is that smartphones are cheap, easily available. They have a decent computing power with a low power consumption. The only drawback that I can think is that you can not alter the positions of sensors. In some cases this can be very harmful e.g. self driving car. But for learning with less cost it is suitable to use an android phone as you will not have to pay for sensors and processor.
+In the never ending war between Android and so called ‘revolutionary’, I hope it is crystal clear which team I support!&lt;/p&gt;
+
+&lt;p&gt;As I am fond of robotics and android both, I want to merge these two into one so that I may work on both in my limited available time. I would like to work on porting ROS on android. It has been ported to arm devices running debian/ubuntu based distros already. It is even supported for the most loved android phone till date, Nexus 5 but running Ubuntu Touch in spite of android. I want to run ROS in android so that the we don’t have to compromise much while using a smartphone in robot as described above. I have no idea right now whether it is feasible idea. But if anyone is interested in this or has any insight, contact me.&lt;/p&gt;</content><author><name>Deepak Gangwar, IITK, EE, Y14 || Member IGVC.</name></author><summary type="html">I am Deepak Gangwar, a senior undergraduate student from Department of Electrical Engineering, IIT Kanpur. The following blog contains my journey, interests and ambitions in Robotics and related technical fields besides the opportunities in these fields in IITK. There might be more blogs to come however probability of it happening is nearly negligible.</summary></entry><entry><title type="html">Four years in a nutshell</title><link href="https://roboticsclubiitk.github.io/2018/01/12/Four-years-in-a-nutshell.html" rel="alternate" type="text/html" title="Four years in a nutshell" /><published>2018-01-12T00:00:00+05:30</published><updated>2018-01-12T00:00:00+05:30</updated><id>https://roboticsclubiitk.github.io/2018/01/12/Four%20years%20in%20a%20nutshell</id><content type="html" xml:base="https://roboticsclubiitk.github.io/2018/01/12/Four-years-in-a-nutshell.html">&lt;p&gt;Today, I would like to share with you, my journey at IIT Kanpur so far. Perhaps along the way, you will end up finding something fascinating enough to pursue, or else you just might learn not to make the same mistakes. Either way, It will be a worthwhile endeavor. I don’t generally write blogs, so I am not very sure how to go about this one. I will just try to make it an interesting read, and highlight the 4 major decisions I made ( branch selection, Robocon-IGVC, Summer Internship, Placements). If you find any of them less interesting, just skip the corresponding section and there will be no loss of continuity.
+&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;branch-selection&quot;&gt;Branch Selection&lt;/h3&gt;
+&lt;p&gt;I picked Electrical Engineering, under the advice of family and ‘knowledgeable’ relatives because it is a ‘core’ branch and you cannot go wrong with that. I guess, now when I look back upon this decision, that it was not a very wise one, yet it has shaped a lot of my choices, including many that I am proud of. So, I would say, It was also not a bad one either. This is important to note, for life is full of choices and the ones we make decide a lot for us. Yet, getting disheartened by a ‘wrongly’ made choice is not good, for the idea of ‘wrong’ or ‘right’ is always subjective.&lt;/p&gt;
+
+&lt;h3 id=&quot;robocon-igvc&quot;&gt;Robocon-IGVC&lt;/h3&gt;
+&lt;p&gt;My first year, I tried many different things, and soon realised that cult or sports were not my forte. I enjoyed work in the tech club workshops, and takneek, though we failed miserably in the actual electronics event. It helped though, for I got selected in Team Robocon. Suddenly, I had lots to do, and so little time for anything else. The first big lesson that IITK teaches you is Time management, and setting your priorities.&lt;/p&gt;
+
+&lt;p&gt;I have been a part of this team for more than 3 years now. During this time, it has changed in name and form. I do not know when, but it became perhaps the best part of my life here. Surrounded by the best of people, I have felt very fortunate. By making a very bold decision to switch to another competition (IGVC) under our leadership, we brought about an end to an era and the start of another. The learning curve steeped at this time, for everything was new and a lot had to be learned from scratch. Automation in robotics is one of the most exciting avenue today, and self driving cars have become a hot trend. This was one step in that direction.&lt;/p&gt;
+
+&lt;p&gt;As one of the heads of the computer vision module, we worked on developing the full vision stack for an autonomous ground vehicle.
+Let me explain the problem statement in brief, and then go through the full vision pipeline in an overview.&lt;/p&gt;
+
+&lt;p&gt;The task is to develop a completely autonomous ground vehicle, capable of navigating on a grassy arena while following white chalk lanes, avoiding obstacles and using GPS waypoints, all the while planning an optimal path by mapping its surroundings. The vision module deals with collecting lane information using camera feed, obstacle information using LIDAR feed and utilising the two create an online visual map of the surroundings, which can later be fused with robot pose and GPS coordinates to create a full global map. Certainly, the task is challenging. We learned to use ROS (robot operating system) and OpenCV as the first step. The full vision pipeline (simplified) in the end looked something like this:&lt;/p&gt;
+
+&lt;p&gt;raw camera feed–&amp;gt;&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;                           remove obstacles --&amp;gt; convert to top view--&amp;gt; detect lanes --&amp;gt; convert to laserscan
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;lidar point cloud –&amp;gt;&lt;/p&gt;
+
+&lt;p&gt;Each node in the above flow graph involved a lot of collective effort. The problem of detecting lanes is an open problem, with many possible ways of attempt. Many of them look good in theory, but fail spectacularly in an open environment and grass background! After a lot of testing, we came up with a few working solutions, but a lot more work can still be done here.&lt;/p&gt;
+
+&lt;h3 id=&quot;summer-intern&quot;&gt;Summer Intern&lt;/h3&gt;
+&lt;p&gt;You must realise that 3rd year was a frenzied year for me. Internship season begins at the starting of 5th sem. At this point, I knew I was interested in robotics, but we had still not switched to IGVC (that would take place in late october). I had to either sit for SPO internship season, or apply for academic research. So I decided to ‘try’ the internship season first. And got selected for ITC on day 1! This was an extremely unexpected scenario, and I no longer knew what to do. I now think one should never be this lax while deciding the course of their lives, for an Internship matters a great deal during placements or college applications. I clearly had no interest or aptitude for the kind of work at ITC, and yet kept going head along.&lt;/p&gt;
+
+&lt;p&gt;Only later, by chance, I applied for a research position at UT Dallas through Office of International Relations (which allows you an spo waiver). This is how I ended up at the Dept of CS , UT Dallas during summers. I got lucky, but with my resume and work, I could have gotten better opportunities had I not taken the spo intern. I would like to advice you all to judge yourself better, and make informed decisions, instead of just going with the flow.
+Let me give you a brief overview of my summer intern project at UT Dallas. I worked in a project in Natural Language Processing (It is a very interesting field of research and has obvious overlap with robotic applications). The aim was to build cross document storylines, given a wikinews corpus, so that an end user can find what happened, to whom and when, without having to go through all of the news corpus.
+First, all event mentions relevant to the target entity must be extracted from the news documents. This is done via coreference resolution, to ensure that implicit mentions are also captured along with the explicit ones.
+For Ex: Steve Jobs &lt;EVENT&gt;cofounded&lt;/EVENT&gt; Apple in 1976. He &lt;EVENT&gt;died&lt;/EVENT&gt;in 2011.
+Here the target entity is ‘Steve Jobs’, with an explicit mention in the first sentence, and an implicit one in the next sentence.
+Next, The Time mentions have to be resolved by temporal tagging. ‘Last Monday’ has to be extrapolated using the document creation date to the proper dd—mm—yy format to be used in the timeline.
+Next and the most important step is relation extraction. Linking correct time mentions to event mentions can be ambiguous in many cases where a single sentence can contain multiple event and time mentions.
+For ex: He &lt;EVENT&gt;fought&lt;/EVENT&gt; pancreatic cancer in 2004 and &lt;EVENT&gt;took&lt;/EVENT&gt;
+six months off in early 2009.
+Here ‘fought’ links to 2004 and ‘took’ links to 2009. Mixing these two will be quite damaging.
+An inherent and intuitive way to visualise a link and extract a relation in natural language is through trees. I therefore used tree kernels (like the Subset Tree Kernels) and tree structures like Dependency Trees (Grammatical Relations and words/lemmas tree) along with some flat features to train an SVM classifier for this purpose.
+After lemma clustering to ensure that duplicate entries are not made in the timeline, the events are then ordered in time to create the final timeline.
+The timeline using the two example sentences used above would therefore look something like this:&lt;/p&gt;
+
+&lt;p&gt;Steve Jobs:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;1976 Cofounded&lt;/li&gt;
+  &lt;li&gt;2004 fought&lt;/li&gt;
+  &lt;li&gt;2009 took&lt;/li&gt;
+  &lt;li&gt;2011 died&lt;/li&gt;
+  &lt;li&gt;etc.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;placements&quot;&gt;Placements&lt;/h3&gt;
+&lt;p&gt;I will end this with a brief account of my placement experience. At the end of my Intern, I had decided to sit for placements, after a lot of due consideration. The semester was one hell of a ride, what with PPT’S and tests just about everyday. I would like to advise you all, the ones who intend to sit for placements and target software based profiles, to take the Data Structures course and practice coding seriously, for that is a huge part of the test process. As for interviews, your work (In my case: Robocon, IGVC and Intern) will matter a lot as well. For more placement fundae, contact me directly, as I will not go into too much detail here. The end result was that I got placed at Juniper Networks (I did various interesting courses this sem, one of which was computer networks, hence my interest. PS: Take good Open Electives instead of just trying to finish the credits, they help you explore a lot). I believe this is only the beginning though.
+Thanks for reading and All the best!&lt;/p&gt;</content><author><name>Swati Gupta, Y14, EE || Member Robocon and IGVC.</name></author><summary type="html">Today, I would like to share with you, my journey at IIT Kanpur so far. Perhaps along the way, you will end up finding something fascinating enough to pursue, or else you just might learn not to make the same mistakes. Either way, It will be a worthwhile endeavor. I don’t generally write blogs, so I am not very sure how to go about this one. I will just try to make it an interesting read, and highlight the 4 major decisions I made ( branch selection, Robocon-IGVC, Summer Internship, Placements). If you find any of them less interesting, just skip the corresponding section and there will be no loss of continuity.</summary></entry><entry><title type="html">Beginner’s Guide to IMU</title><link href="https://roboticsclubiitk.github.io/2017/12/21/Beginners-Guide-to-IMU.html" rel="alternate" type="text/html" title="Beginner's Guide to IMU" /><published>2017-12-21T00:00:00+05:30</published><updated>2017-12-21T00:00:00+05:30</updated><id>https://roboticsclubiitk.github.io/2017/12/21/Beginners-Guide-to-IMU</id><content type="html" xml:base="https://roboticsclubiitk.github.io/2017/12/21/Beginners-Guide-to-IMU.html">&lt;p&gt;While discussing robotics, sensors are major elements that can’t be ignored. They become important as they provide an interface to interact with the environment. That is why we have a whole range of sensors for different applications.&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;Some of the commonly used sensors are:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Current sensor&lt;/li&gt;
+  &lt;li&gt;Voltage sensor&lt;/li&gt;
+  &lt;li&gt;Speedometer&lt;/li&gt;
+  &lt;li&gt;Light sensor&lt;/li&gt;
+  &lt;li&gt;Inertial measurement unit&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;A more elaborative list can be found &lt;a href=&quot;https://en.wikipedia.org/wiki/List_of_sensors&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;In this blog post, I am only going to talk about my favorite sensor, inertial measurement unit (IMU). This sensor is fun to work with as there are numerous ways one can play around with it.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Note: IMU’s come in wide variety and pricing. So just to be on the same page, IMU that I’ll be considering is a 9DOF IMU with MPU6050 and Honeywell’s HMC5883L.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;As the name might suggest an IMU is capable of measuring orientation data and to achieve this it uses a combination of three sensors, namely Accelerometer, Gyroscope, and Magnetometer. Before moving on to how these work some definitions are necessary (yeah boring things):&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Degree of Freedom (DOF) – number of the directions in which independent motion can occur (Source: Google)&lt;/li&gt;
+  &lt;li&gt;Roll – Pitch – Yaw – I believe an image would explain this better. So here it is. For us roll axis will be X axis, the pitch will be along Y axis and yaw along the Z axis.
+&lt;img src=&quot;https://image.shutterstock.com/z/stock-vector-aviation-concept-axis-of-movement-in-three-dimensional-space-roll-yaw-and-pitch-191329868.jpg&quot; alt=&quot;&quot; /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;accelerometer&quot;&gt;Accelerometer&lt;/h3&gt;
+&lt;p&gt;First, we’ll discuss accelerometer. Briefly, accelerometer measures and tells you the amount of force (acceleration) it is experiencing in X, Y and Z direction. Now, this data makes sense in orientation because of gravity. We know that if an object is not moving it will experience acceleration only due to gravity (neglect the other minimal forces). The direction of gravitational force is always same with respect to the earth’s frame but based on the orientation of IMU, it will experience different amount of acceleration along the three axes. These acceleration values can give us roll and pitch values.&lt;/p&gt;
+&lt;div class=&quot;language-c highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;pitch&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;180&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;atan2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;accelX&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sqrt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;accelY&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;accelY&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;accelZ&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;accelZ&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;PI&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;roll&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;180&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;atan2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;accelY&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sqrt&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;accelX&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;accelX&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;accelZ&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;accelZ&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;PI&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;Above formulas can be derived. Give it a try!&lt;/p&gt;
+&lt;h3 id=&quot;gyroscope&quot;&gt;Gyroscope&lt;/h3&gt;
+&lt;p&gt;Talking about the gyroscope, it measures the angular velocity along the three axes. So it is not directly able to predict roll, pitch or yaw. But as we can see integrating angular velocity over time gives us the angle, which can be used to measure the change in roll, pitch and yaw. Although this technique is not used that much as the readings of the gyroscope are very erroneous.&lt;/p&gt;
+&lt;h3 id=&quot;magnetometer&quot;&gt;Magnetometer&lt;/h3&gt;
+&lt;p&gt;The third component of our IMU is the magnetometer. This is where I have seen people facing difficulties. It is a device capable of measuring magnetism. It is able to help us find orientation using the earth’s magnetic field, similar to a compass. As in accelerometer one can use the X, Y and Z magnetometer readings to calculate yaw.&lt;/p&gt;
+&lt;div class=&quot;language-c highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;mag_x&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;magReadX&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cos&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pitch&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;magReadY&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;roll&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pitch&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;magReadZ&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cos&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;roll&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pitch&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;mag_y&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;magReadY&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cos&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;roll&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;magReadZ&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;sin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;roll&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;yaw&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;180&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;*&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;atan2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mag_y&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mag_x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;M_PI&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;Now the most common question asked is, why can’t we calculate yaw using accelerometer itself? The reason is in the physics. As you notice that accelerometer works on the fact that gravitational force is always constant in direction i.e. towards the earth, we use this fact but in case of yaw, the yaw axis is perpendicular to gravitational force, so if we keep roll and pitch same and just change the yaw angle we will not be able to measure any difference in accelerometer values. Hence accelerometer fails to measure yaw.&lt;/p&gt;
+
+&lt;p&gt;These are all the concepts needed to understand IMU. For using an IMU sensor with a microcontroller few more things need to be learned. There are many references on the internet for the same. Following are a few:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;Excellent tutorial explaining physics of accelerometer and gyroscope &lt;a href=&quot;http://www.starlino.com/imu_guide.html&quot;&gt;here&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Formulas &lt;a href=&quot;https://engineering.stackexchange.com/questions/3348/calculating-pitch-yaw-and-roll-from-mag-acc-and-gyro-data&quot;&gt;here&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.starlino.com/dcm_tutorial.html&quot;&gt;DCM tutorial&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Cool animations &lt;a href=&quot;https://en.wikipedia.org/wiki/Flight_dynamics_(fixed-wing_aircraft)&quot;&gt;here&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;An IMU library for Arduino &lt;a href=&quot;https://github.com/sparkfun/9DOF_Razor_IMU&quot;&gt;here&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Arduino tutorial to get started &lt;a href=&quot;https://diyhacking.com/arduino-mpu-6050-imu-sensor-tutorial/&quot;&gt;here&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;calibration-techniques&quot;&gt;Calibration techniques&lt;/h3&gt;
+&lt;p&gt;From this point, I assume that you’ve understood how IMU works and have tried to get the roll, pitch and yaw values using the sensor. If not done, please do, as  the following section will not make sense until you’ve played with the sensor. The more you play, the more you understand its behavior. If you’ve done the above things and are getting good values then it is great, but if not (which is the most probable case) you are still fine, this section will help you. One of the important points of getting correct values is calibration of sensor instead of using the raw data. There are different ways for calibrating the sensor like measuring the value along three axes and manually calculating offset and scaling term. My approach relies more on a tool known as Magneto.&lt;/p&gt;
+
+&lt;p&gt;The tool can be found &lt;a href=&quot;http://sailboatinstruments.blogspot.in/2011/09/improved-magnetometer-calibration-part.html&quot;&gt;here&lt;/a&gt;. Usage instructions are already available on the website. Briefly what this does is, you give it the readings of the sensor and it tries to fit those readings on an ellipsoid and return the equation of the ellipsoid in form of a scaling matrix A and bias b. To make sure that the tool works well, try to make sure that the file you are uploading as input readings contain the values in all the three rotations, such that the ellipsoid is completely covered. This tool is popularly used for calibrating the magnetometer but can be used for accelerometer calibration as well.
+A helpful link regarding calibration: &lt;a href=&quot;https://chionophilous.wordpress.com/2011/08/26/accelerometer-calibration-ii-simple-methods/&quot;&gt;Calibration techniques&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;common-errors-and-debugging-methods&quot;&gt;Common errors and debugging methods&lt;/h3&gt;
+&lt;p&gt;This is almost everything you can do theoretically to get good values without making the system too complex using filters. There is a possibility that the data you are getting is not as expected. So, how to correct it? Simple, debug the system! This is the place I’ve found many people facing a hard time. Well, it is not that difficult, just use your intuitions and understanding of physics. From here it is all about analyzing data.&lt;/p&gt;
+
+&lt;p&gt;Consider a case where changing pitch angle is changing your roll value too. This is not expected (minor changes are ok). So how will you go about finding the fault? Let’s break it into steps. So you are observing that pitch is affecting roll, check if it is true vice versa i.e. roll is affecting pitch or not? If yes, then probably the formulas are wrong somewhere. Derive the formulas again just to be sure or look up on the internet. If the formulas are correct then maybe you need to go down to a more basic level. Now analyze the values that are being used in roll and pitch calculation. Observe how they are getting changed when you change the orientation along one axis only. If you observe that changing orientation along one axis changes values along other axes, then there might be a mistake in calibration code. Follow this top down approach until you reach a point where the observed values are as expected. Try to find what you did wrong in the step above it. If you’ve reached the bottom most layer i.e. the data being sent by the IMU itself is faulty, then probably the sensor has gone bad (very fewer chances that this will happen). You can either provide a compensation factor in the code itself to take into account the error in sensors reading (if possible) or maybe it is time to change the sensor. That’s it regarding IMU, mostly IMU’s readings are prone to drifting when used in long time setting. But there are techniques such as Kalman filter that make using IMU in a real-time situation more reliable. Google it!&lt;/p&gt;</content><author><name>Hemant Kumar, EE, Y14</name></author><summary type="html">While discussing robotics, sensors are major elements that can’t be ignored. They become important as they provide an interface to interact with the environment. That is why we have a whole range of sensors for different applications.</summary></entry><entry><title type="html">Enhancing Vision of Autonomous Systems</title><link href="https://roboticsclubiitk.github.io/2017/12/02/Enhancing-Vision-of-Autonomous-Systems.html" rel="alternate" type="text/html" title="Enhancing Vision of Autonomous Systems" /><published>2017-12-02T00:00:00+05:30</published><updated>2017-12-02T00:00:00+05:30</updated><id>https://roboticsclubiitk.github.io/2017/12/02/Enhancing%20Vision%20of%20Autonomous%20Systems</id><content type="html" xml:base="https://roboticsclubiitk.github.io/2017/12/02/Enhancing-Vision-of-Autonomous-Systems.html">&lt;p&gt;Most of my robotics experience came from my involvement in Team IGVC last year. Recruited as a member of Team Robocon, we shifted to IGVC in October due to conflicting competition dates of the former. You can read about IGVC and its objective on its official website www.igvc.org.
+&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;The October was spent in understanding the problem statement, design rules, reading previous year design reports of participated teams and news forums. A basic construct I understood was that we were supposed to build an autonomous vehicle. Daily, we read the news about Tesla Autopilot, Driverless Car, Volvo Drive Me spending billions to make our autonomous car future a reality. Hence, the objective of this problem excited me. There were several modules on which one could work on. It was Localization and Mapping, Lane Detection, Motion Planning and Control. It wasn’t tough for me to snatch one end of the problem and decided to work on Lane Detection and Obstacle Elimination problem. It was because in my summer project I applied some basic processes of image processing and vision on Torch. As the work kicked off, the vision team revised some basics of OpenCV, installations, etc. For a couple of weeks, we worked on a sample IGVC lane video, only to get introduced to the drawbacks of using heuristic methods. We realized that we should stop checking Hit-and-Trial approach in such problems. One of the cons of using only heuristic approaches was that one could easily find several cases where it won’t work and in practicality, it obviously didn’t. Actually, for us realizing that solution of this problem using any obvious approach won’t work was tough but necessary. We needed to grasp some common theoretical concepts of computer vision, so we watched video tutorials of Prof. Mubarak Shah, UCF on YouTube. Most of our failed attempts were already described there as for why don’t they work and what more should be done. In practical testing at open environments, we got introduced to problems of changing weather conditions, soil patches, non-uniform grass, rough terrains, camera height, etc. Due to increased complexity, we were constrained to limited directions to think for the solution so that we don’t waste much time on an approach sure to fail. Not always one should search for an ultimate and easy solution to a tough problem because if the final solution has to get simplified it would automatically be done. A way to note down information to be extracted from lane video was to think how a human brain solves such a problem and what the input it remembers to return lane direction is. Often we used to read previously worked approaches on similar problems rather than always thinking from scratch. Documenting these approaches was an important task as weeks or months later we may want to know what we did. A good method was to neatly code it into functions so that directly loading the required library was sufficient to get their access. It also makes the code pretty understandable.&lt;/p&gt;
+
+&lt;p&gt;Another problem was obstacle detection. Blacking out some foreign color or some linear combination of several color components used to severely fail here returning false obstacles and hence cropping out some lane data. In order to tackle out this problem, we managed to incorporate LiDAR laser scan data. This gave us access to easily discriminate obstacles in the camera frame. Our final obstacle elimination algorithm was hence pretty much reliable as it would precisely crop out the obstacles.&lt;/p&gt;
+
+&lt;p&gt;Being a team member of IGVC has taught me a lot of things. Most important being Time Management. It was almost daily I used to wake up in the morning and note down a scheduled checklist for the whole day. One could hardly waste any time in such a situation. As one amongst 17 team members, it was the first time I got the opportunity to work in such large team. It is always a persistent experience working in such an enthusiastic environment. Thinking about how to approach a problem taught me that why sometimes intuition fails. It is because we don’t have the idea of all the problems one could face while approaching that problem or falsely simplifying it. As Einstein quoted, “Everything should be made as simple as possible, but not simpler.” If we realize that the solution to a problem won’t be easy, generally it doesn’t help to think from scratch. There are vast sources on the internet about such problems, people brainstorming on forums and research papers. Spending time wisely to read these materials always provides us with an offset edge as we get to know from where to start. So, our vision problem, in the end, wasn’t actually a coding problem but an algorithmic problem. Directly jumping on writing codes, debugging, etc. just to result in a failed attempt is nothing worth more than just a waste of time. Seniors and Professors were very helpful in the whole journey, and every member of the Team IGVC has been a source of motivation for me.&lt;/p&gt;
+
+&lt;p&gt;In these four years, not every student may get to apply things taught in his/her coursework. In Team IGVC one could learn anything helpful, see if it could work and apply it. The experience of the things going right according to your way is always satisfying. Not always do things work, so keep the morale high. In Elon Musk’s words, “If something is important enough, even if the odds are against you, you should still do it.” The first step is to establish that something is possible, then probability will occur.&lt;/p&gt;</content><author><name>Pritesh Kumbhare, EE, Y15</name></author><summary type="html">Most of my robotics experience came from my involvement in Team IGVC last year. Recruited as a member of Team Robocon, we shifted to IGVC in October due to conflicting competition dates of the former. You can read about IGVC and its objective on its official website www.igvc.org.</summary></entry><entry><title type="html">A different take on Robotics</title><link href="https://roboticsclubiitk.github.io/2017/09/25/A-different-take-on-Robotics.html" rel="alternate" type="text/html" title="A different take on Robotics" /><published>2017-09-25T00:00:00+05:30</published><updated>2017-09-25T00:00:00+05:30</updated><id>https://roboticsclubiitk.github.io/2017/09/25/A%20different%20take%20on%20Robotics</id><content type="html" xml:base="https://roboticsclubiitk.github.io/2017/09/25/A-different-take-on-Robotics.html">&lt;p&gt;Robotics always brings our attention to programming and electronics.However, equally important is  the mechanical aspects of the robot, which is the first step towards good and effective robotics.In the following article, I would like to support my statement  by sharing one of my memories.The best experience I have had till date is my involvement in Robocon in my first year at IIT Kanpur.I consider myself honoured and very lucky to be part of this great team and the great things we achieved together.
+&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;(Go through the Robocon 2016 problem statement to further improve your reading experience)&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;It all started in September 2015 when we had the recruitment of first yearites.It was one of the first inductions into a team of IITK for our batch, so there was a lot of buzz and a large number of people turned up for the tests. Somehow, I managed to clear the tests and interviews and that was the beginning of something special.&lt;/p&gt;
+
+&lt;p&gt;The first month was dedicated to train us,the new members to specialize in one of the three fields-design and manufacturing,electronics and coding.So, I took up the first one and learnt SolidWorks and AutoCAD, which helped us to convert our ideas into viable designs.We also got to know about some basic manufacturing techniques like cutting(using Hacksaw as well as Waterjet),turning, milling,filing,drilling and tapping,etc . We had several brainstorming sessions where our seniors taught us how to approach designing a robot with an engineering common sense.&lt;/p&gt;
+
+&lt;p&gt;The winter was when we started working towards the problem statement. I was mostly involved with the hybrid robot . In designing so, we faced many challenges.Since, it was manually driven for some part of the circuit,we had to consider drivability and maneuverability.Since the robot had to be equipped with a lot other electronics sensors and boards, we needed to have a good space management to have good weight balance. So, we came up  with a double decker,  rear wheel drive chassis which turned employing the  differential drive.The toughest problem was the robot had to climb a pole.So, we planned to have an open structure so that the pole could enter from one side.Then we placed 3 pneumatic pistons ,whose ends were equipped with three motor-powered wheels.The idea was so that when the pistons actuated , the wheels would press against the pole and the motor would power the wheels to climb up. This simple idea had many unforeseen problems,which we discovered subsequently as we built and tested prototypes.This was the classic case of difference between what is theory (which was governed by our codes ) and what actually happens in practice(the electeonics and chassis capabilities).  Firstly, the pneumatic system was so powerful that it distorted the whole chassis to such an extent that it would fail after a few cycles of climbing. So, we redesigned the chassis with further reinforcements and included a locking mechanism so that the chassis would become a closed structure once the pole had entered to the middle of the robot.Another problem we faced was ,due to slight mis-alignment of pole-climbing wheels, the robot would rotate, tilt or even slip while climbing, which created further problems in placing the flag at the top.We tackled this problem with a novel idea of using wheels which had curvature same as that of the pole. This considerably improved the contact patch and solved the previous problems to a great extent, if not completely.In January, we decided to build a final chassis since a lot of testing and changes had gone to the initial chassis and it was starting to suffer cracks and fatigue. It was classic clockwork and we built the second chassis within 4-5 days.By the end of February , we could complete the problem statement consistently below 90 seconds on our practice arena.&lt;/p&gt;
+
+&lt;p&gt;Our team was always one of the respectable ones but we lacked bits and pieces,here and there which never made us a strong contenders for the win in the past. But this time,we left for Pune with very high hopes,owing to all the hardwork we had put in in past 4 months and the fact that we had completed the problem statement with such precision ,perhaps, for the first time.But when we reached the arena, we were robbed of our sleep when we saw some of the teams outperformed us in the practice sessions.We had no plans of giving up and we worked almost all the time for a couple of days.We changed our stratergies, changed a few design aspects , and dealt with a few teething issues on the way and reduced our total time to around 60 seconds.&lt;/p&gt;
+
+&lt;p&gt;From  outclassing some of the lightweights in the early stages to beating some big teams narrowly, we found our hardwork finally showing up at the main stage and that pure joy can’t be expressed in words.We had to face the best team in the semifinal and so we set up our robot on the limits ,and wished for a small mistake from rivals to pounce upon.We eventually ended up third, as we lost the semi-finals,but it was close and could have gone either way.The loss was bitter but we knew, we had extracted every bit of performance our chassis had on offer.The positives overshadowed the pain of loss and it only increased the hunger to build upon this success next time around.&lt;/p&gt;
+
+&lt;p&gt;I repeat, I was lucky to be a part of this team and meet such seniors and alumnis who helped me all along the journey and helped the team progress in the right direction.It was a lovely experience where one could witness all sorts of emotions,the way we handled pressure ,worked in harmony. Such strong was the spirit inside the team,the passion and commitment everyone showed in the team was just unreal, and everyone of us still feels proud to say “Robocon is Love, Robocon is Life”.&lt;/p&gt;</content><author><name>Abhishek Sahoo</name></author><summary type="html">Robotics always brings our attention to programming and electronics.However, equally important is the mechanical aspects of the robot, which is the first step towards good and effective robotics.In the following article, I would like to support my statement by sharing one of my memories.The best experience I have had till date is my involvement in Robocon in my first year at IIT Kanpur.I consider myself honoured and very lucky to be part of this great team and the great things we achieved together.</summary></entry><entry><title type="html">Robotics Club Why it exists?</title><link href="https://roboticsclubiitk.github.io/2017/09/07/Robotics-Club-Why-it-exists.html" rel="alternate" type="text/html" title="Robotics Club Why it exists?" /><published>2017-09-07T00:00:00+05:30</published><updated>2017-09-07T00:00:00+05:30</updated><id>https://roboticsclubiitk.github.io/2017/09/07/Robotics%20Club:%20Why%20it%20exists</id><content type="html" xml:base="https://roboticsclubiitk.github.io/2017/09/07/Robotics-Club-Why-it-exists.html">&lt;p&gt;The whitewashed room in Hall of Residence- II, equipped with big machines and conference tables, was designed a long time ago to cater to the needs of tinkering minds in the Institute. A lot of efforts by the students and alumni have gone into ensuring that this room, which belongs to the Robotics Club, would be a place where people would come together to explore new projects and test their ideas. Such is the motto of the Science and Technology Council as well, of which the club has been a part of its existence.
+&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;Robotics Club became a name I began to closely associate myself with when I started working on the project &lt;a href=&quot;https://auviitk.com&quot;&gt;Autonomous Underwater Vehicle (AUV)&lt;/a&gt; in my freshman year. Compared to the other ongoing projects at that time such as SAE and RoboCon, it was the lesser sibling in terms of how developed the project was, however the opportunity to work with like minded people is what drew me to this project. After spending close to three years on it, working with the team has been one of the greatest experiences for me in the Institute. The final working system &lt;strong&gt;Varun&lt;/strong&gt;, maturing from an initial sketch on a piece of paper, marks a journey of tenacity and grit.&lt;/p&gt;
+
+&lt;p&gt;Similar to many freshmen who want to work on a project, one of the toughest decisions is to decide what you want to work on. In the plethora of options that were available to me at the start, I eventually decided to work on the mechanical aspects of the project because I felt I was more adept at such a work. With time and experience, I was able to mature upon what I really wanted to work in on a long- run. A suggestion: If one is to make a rough choice on what appeals to him or her, instead of blindly following the crowd a better approach is the one based on intuition. Ask yourself, “If I have to solve a particular problem, would I try to resolve it at the software end or at the hardware end?” With the answer to this itself, you should have your options reduced by half and things should become a bit clearer for you. However, this is just to help in making an initial decision quickly and allow you to start working on a project instead of wasting your time procrastinating. What is most important is that you develop the right attitude, and admit a sense of responsibility and enjoyment in the work you are doing, because eventually, everything else falls into the picture rightly.&lt;/p&gt;
+
+&lt;p&gt;Besides the opportunity to develop technical skills, the way the club runs and the kind of ecology that is present helps you in enhancing your soft skills. One of the now-graduated seniors once told me, “I would always be a great team player but I would need to work hard to become a good leader.” He was right to a large extent. The initial time, when the responsibility to lead the AUV team was passed on to me, I was all over the place trying to manage my own priorities and a team that had expanded its numbers. It took a while but thanks to the constant feedback I received from my seniors and my teammates, we managed to pull out of the mess that had been created. Experiences like these are only possible when you are working on a large project and are in it for a long time. You learn to collaborate on projects and value people for their ideas irrespective of how absurd they may sound. Robotics, as it is now seen as, is a demanding inter-disciplinary field and requires one to know about various aspects of mechanical, electronics, and software engineering; even patiently listening to other person’s problems help you widen your understanding of their field, and certainly engraves a deeper respect to the challenges in engineering.&lt;/p&gt;
+
+&lt;p&gt;Quoting an excerpt from Steve Jobs’s commencement speech at Stanford University, “You can’t connect the dots looking forward; you can only connect them looking backward. So you have to trust that the dots will somehow connect in your future.” His words succinctly describe how I feel about this journey right now. What distinguishes working on projects in the club from the kind of exposure you get while working on a project with a professor is the level of maturity and independence you gain, and the kind of connections you get to make. One thing that I have realized as a member of the club is that most of the people who join in the projects are the go-getters in life, that is they end up pursuing something different from the crowd. To a large extent, I feel that the club helps in ensuring this difference and working with such people always bring a lot of humility and gratification. The club essentially serves as a platform to create bonds- with professors, seniors, your batchmates, and your juniors- that you would surely recognize once you graduate from the Institute.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Mayankm96/Mayankm96.github.io/master/images/team.jpg&quot; alt=&quot;AUV Team&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The project AUV, which started off small, has grown over the years, just like the many long-term projects that are there in the club right now. It takes a few years to do that but in the end, it is all worth it. Thus, if you have a certain idea that you want to work on, then all you need is honest perseverance and the will to want to try it out relentlessly. You may always feel free to contact the club members to discuss it; in fact most people associated with the club love having an intellectual decisions on an idea and such discussions are, in general, encouraged provided you have done a bit of ‘research’ on your own before wanting to jump onto the implementing stage impulsively. It is always easy to start working on a project on anything but the enriching journey from a raw idea to an end- product is what working in the club is all about. I hope that the club becomes a home to its new members as it has been for me for all my stay at the Institute.&lt;/p&gt;</content><author><name>Mayank Mittal</name></author><summary type="html">The whitewashed room in Hall of Residence- II, equipped with big machines and conference tables, was designed a long time ago to cater to the needs of tinkering minds in the Institute. A lot of efforts by the students and alumni have gone into ensuring that this room, which belongs to the Robotics Club, would be a place where people would come together to explore new projects and test their ideas. Such is the motto of the Science and Technology Council as well, of which the club has been a part of its existence.</summary></entry><entry><title type="html">Scoring a job through Robotics Internship</title><link href="https://roboticsclubiitk.github.io/2017/07/30/Scoring-a-job-through-Robotics-Internship.html" rel="alternate" type="text/html" title="Scoring a job through Robotics Internship" /><published>2017-07-30T00:00:00+05:30</published><updated>2017-07-30T00:00:00+05:30</updated><id>https://roboticsclubiitk.github.io/2017/07/30/Scoring%20a%20job%20through%20Robotics%20Internship</id><content type="html" xml:base="https://roboticsclubiitk.github.io/2017/07/30/Scoring-a-job-through-Robotics-Internship.html">&lt;h5 id=&quot;when-you-plan-it-right&quot;&gt;When you plan it right!&lt;/h5&gt;
+
+&lt;p&gt;This blog post is about my experience while developing a C++ library for motion
+planning during my third year “internship”. This is about how after failing to
+secure an internship for summers, I try to rescue my self-confidence by taking up
+an ambitious summer project. Going in a direction orthogonal to what was
+planned and finally making something I am proud of. This is both, my
+experiences and a very short introduction to the library I developed.
+&lt;!--more--&gt;&lt;/p&gt;
+
+&lt;p&gt;Almost an year ago from now (03-07-2017 11:10 PM), the beginning of the
+summer break, I was at one of the lowest points during my stay at IIT Kanpur. I
+had applied to only three companies for internship through the SPO and was not
+able to secure an internship since two of them decided to not take any student
+and was rejected by the third after an interview. Looking back at that time is
+amusing now and often forms the larger part of all the internship/placement
+fundae that I give to my juniors.&lt;/p&gt;
+
+&lt;p&gt;To utilize my summer productively, I decided to work on a project with
+&lt;a href=&quot;http://home.iitk.ac.in/~dasgupta/&quot;&gt;Dr. Bhaskar Dasgupta&lt;/a&gt; who was the then faculty advisor of the &lt;a href=&quot;http://students.iitk.ac.in/robocon/&quot;&gt;Robocon Team&lt;/a&gt;. We
+decided to work on a project that we had talked about earlier during one of the
+Robocon team meetings. The project was to build a robot which could navigate in
+an unknown environment, build maps and do some form of path planning (It was not the good ol’ &lt;a href=&quot;https://en.wikipedia.org/wiki/Simultaneous_localization_and_mapping&quot;&gt;SLAM&lt;/a&gt; problem, trust me :-P). I was excited and overwhelmed at the same time. The task seemed insurmountable and there was so much to learn.
+I spent some time reading random stuff from the internet and after another
+meeting with my mentor, we decided that for the moment I should study and
+implement some path planning algorithms and we would decide how to go ahead
+at a later stage.&lt;/p&gt;
+
+&lt;figure class=&quot;blog-image&quot; style=&quot;width: ;&quot;&gt;
+	
+  		&lt;img class=&quot;blog-img&quot; src=&quot;https://roboticsclubiitk.github.io/blog/images/mpl-map.bmp&quot; alt=&quot;Illustration 1: This is what I mean by a 'map'.
+Nothing fancy, just a bitmap where black denotes
+obstacles and white denotes the free region&quot; /&gt;
+  	
+  &lt;figcaption style=&quot;font-size: 80%&quot;&gt;&lt;i&gt;Illustration 1: This is what I mean by a 'map'.
+Nothing fancy, just a bitmap where black denotes
+obstacles and white denotes the free region&lt;/i&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;This time, I studied a few standard
+motion planning algorithms and started
+thinking of how to simulate them. At
+this point, I must admit the MATLAB is
+not one of my favourites and I always
+try to find a reason for using C++. This
+was the perfect opportunity since I
+could not find a simple framework to
+simulate these algorithms and I admit
+that I did not try hard enough (or try at
+all! ). I convinced myself that this task
+was too computationally intensive to be
+handled by python and the only option I had was to use C++. I ended up writing about 200 lines of code to display a minimal (ugly) GUI which allowed the user to
+load a map (Illustration 1) and select the starting and ending points for
+computing the path and the program would then show an animation of the
+planning algorithm finding the path. I showed it to my mentor, he liked it and
+encouraged me to simulate another algorithm. This time, I decided, as any good
+software engineer would do, that I should divide my program into modules which
+share their functionality instead of replicating the code for every simulation I
+make. It was this second simulation which changed the direction of my summer
+project altogether.&lt;/p&gt;
+
+&lt;p&gt;Long story short, I had now completely forgotten about the original problem
+statement and was focusing on problems like: How to factor out the pathplanning
+algorithms into composable components? What are the basic
+components of a path planning problem? What would a sensible API for path
+planning look like? I tackled these questions for 5-6 weeks while writing some
+prototypes, making flowcharts etc.&lt;/p&gt;
+
+&lt;p&gt;While I was brainstorming on the design of this library, I would think of the
+behavior of each of the component on an algorithm, does it form a logical entity?
+What behaviors of the component to hide and what to expose to the user? Are
+the classes in this code a good representation of the objects in real world? I do
+not remember what all were the ideas I came up with since it has been almost an
+year since I started working on it but what I do remember is how after several
+weeks I was finally happy with the design after about 5 complete rewrites of the
+entire code (over ~1.5k lines of code). Here is the structure I came up with:&lt;/p&gt;
+
+&lt;figure class=&quot;blog-image&quot; style=&quot;width: ;&quot;&gt;
+	
+  		&lt;img class=&quot;blog-img&quot; src=&quot;https://roboticsclubiitk.github.io/blog/images/mpl-flowchart.png&quot; alt=&quot;Illustration 2: Major components. The arrows denote what a typical workflow looks like. The worspace
+and problem definition are given to a motion planner which consists of a graph builder, a graph search
+and an interpolation method. The planner outputs a path. Each of these components can be visualized.&quot; /&gt;
+  	
+  &lt;figcaption style=&quot;font-size: 80%&quot;&gt;&lt;i&gt;Illustration 2: Major components. The arrows denote what a typical workflow looks like. The worspace
+and problem definition are given to a motion planner which consists of a graph builder, a graph search
+and an interpolation method. The planner outputs a path. Each of these components can be visualized.&lt;/i&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Workspace contains the map of the environment. I defined it as a separate class
+so that it is possible to hide the implementation from other modules. Problem
+definition contains start and end points at the moment. It can be extended to
+incorporate way-points or other path constraints that the user might be interested
+in. The graph builder takes a workspace and discards all the information not
+required for planning the path thus forming a good representation of the
+workspace. The graph search algorithm searches this graph for paths which are
+then interpolated using the interpolator to generate smooth paths.&lt;/p&gt;
+
+&lt;p&gt;Workspace contains the map of the environment. I defined it as a separate class
+so that it is possible to hide the implementation from other modules. Problem
+definition contains start and end points at the moment. It can be extended to
+incorporate way-points or other path constraints that the user might be interested
+in. The graph builder takes a workspace and discards all the information not
+required for planning the path thus forming a good representation of the
+workspace. The graph search algorithm searches this graph for paths which are
+then interpolated using the interpolator to generate smooth paths.&lt;/p&gt;
+
+&lt;p&gt;I won’t go more into the library in this post since the library has some
+documentation at &lt;a href=&quot;http://lakshayg.github.io/mpel/&quot;&gt;lakshayg.github.io/mpel&lt;/a&gt;. The source code for this library is
+available on GitHub at &lt;a href=&quot;https://github.com/lakshayg/mpel&quot;&gt;github.com/lakshayg/mpel&lt;/a&gt;. I would recommend you to
+visit the link and have a look at the library and feel free to make changes and
+contribute to the code. I close this post with some examples of paths generated
+using different path planning algorithms:&lt;/p&gt;
+
+&lt;figure class=&quot;blog-image&quot; style=&quot;width: 45%;&quot;&gt;
+	
+  		&lt;img class=&quot;blog-img&quot; src=&quot;https://roboticsclubiitk.github.io/blog/images/mpl-path001.png&quot; alt=&quot;&quot; /&gt;
+  	
+  &lt;figcaption style=&quot;font-size: 80%&quot;&gt;&lt;i&gt;&lt;/i&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure class=&quot;blog-image&quot; style=&quot;width: 45%;&quot;&gt;
+	
+  		&lt;img class=&quot;blog-img&quot; src=&quot;https://roboticsclubiitk.github.io/blog/images/mpl-path002.png&quot; alt=&quot;&quot; /&gt;
+  	
+  &lt;figcaption style=&quot;font-size: 80%&quot;&gt;&lt;i&gt;&lt;/i&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;</content><author><name>Lakshay Garg, EE, Y13 || Former member of Robocon, Also worked on IGVC.</name></author><summary type="html">When you plan it right! This blog post is about my experience while developing a C++ library for motion planning during my third year “internship”. This is about how after failing to secure an internship for summers, I try to rescue my self-confidence by taking up an ambitious summer project. Going in a direction orthogonal to what was planned and finally making something I am proud of. This is both, my experiences and a very short introduction to the library I developed.</summary></entry></feed>
