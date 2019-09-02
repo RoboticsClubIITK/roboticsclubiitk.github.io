@@ -7,12 +7,21 @@
   image: aditya.jpg
 
 - name: Anmol Gupta
-  github: 
+  github: pAra-d0x
   facebook: anmol-gupta-b0a15a184
   mob: 8445142083
   add: 
   email: ganmol@iitk.ac.in
-  image: anmol.png
+  image: anmol.jpg
+
+ - name: Anubhav Mazumdar
+  github: anutubu
+  facebook: anubhav.majumdar.925
+  mob: 6264785403
+  add: 
+  email: anubhav@iitk.ac.in
+  image: anubhav.jpg 
+
 
 - name: Arunim Joarder
   github: ArunimJoarder
@@ -31,19 +40,28 @@
   image: ashwin.JPG
 
 - name: Ayush Sinha
-  github: adityagl
-  facebook: aditya.goyal.50115161
+  github: ayushsinha01
+  facebook: ayush.sinha.71271
   mob: 8447778408
   add: 
-  email: 
+  email: ayushs@iitk.ac.in
   image: ayush.jpg
 
+ - name: Dipak Miglani
+  github: dipakmiglani5
+  facebook: dipak.miglani.79
+  mob: 7982498759
+  add: 
+  email: dipakm@iitk.ac.in
+  image: dipak.jpg
+
+
 - name: Haren Bhandari
-  github: 
-  facebook: 
+  github: haren7
+  facebook: haren.bhandari.1
   mob: 8097044029
   add: 
-  email: 
+  email: haren@iitk.ac.in
   image: haren.jpg
 
 - name: Himanshu Rahangdale
@@ -62,13 +80,38 @@
   email: ramkumar@iitk.ac.in
   image: ramkumar.jpg
 
-- name: Luvneesh Kumar
-  github: 
-  facebook: 
-  mob: 8851071915
+ - name: Kartik Gupta
+  github: kartik2008
+  facebook: kartik.gupta.10888
+  mob: 9711585548
   add: 
-  email: luvneesh@iitk.ac.in
-  image: luvneesh.jpg
+  email: kartikg@iitk.ac.in
+  image: 
+
+ - name: Kuldeep Kumar
+  github: kuldpkr
+  facebook: KoderKuldeep
+  mob: 8738030515
+  add: 
+  email: kuldpkr@iitk.ac.in
+  image: .jpg
+
+- name: Nikhil Verma
+  github: 
+  facebook: profile.php?id=100027579726694
+  mob: 9340918819
+  add: 
+  email: nikhilv@iitk.ac.in
+  image: 
+
+- name: Paras Mittal
+  github: prsMittal
+  facebook: paras.mittal.9
+  mob: 9813513036
+  add: 
+  email: parasm@iitk.ac.in
+  image: 
+
 
 - name: Prakash Choudhary
   github: 
@@ -94,6 +137,14 @@
   email: 
   image: ruchina.jpg
 
+ - name: Saikat Howladar
+  github: 
+  facebook: saikat.howladar.1
+  mob: 7091099351
+  add: 
+  email: saihow@iitk.ac.in
+  image:
+
 - name: Shivam Goel
   github: 
   facebook: shivam.goel.14203
@@ -118,6 +169,14 @@
   email: sourishm@iitk.ac.in
   image: sourish.jpg
 
+- name: Suman Singha 
+  github: ssingha2000
+  facebook: profile.php?id=100008649190535
+  mob: 9163686230
+  add: 
+  email: ssingha@iitk.ac.in
+  image: 
+
 - name: Yatish Sharma
   github: 
   facebook: Shrma.Yatish
@@ -125,3 +184,25 @@
   add: 
   email: yatish@iitk.ac.in
   image: yatish.jpg
+
+
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+
+ 
+
+ 
+
+
+ 
+
+
+  
