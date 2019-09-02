@@ -1,6 +1,6 @@
 name: Robotics Club
 title: Robotics Club
-url: https://roboticsclubiitk.github.io
+url: http://students.iitk.ac.in/roboclub
 paginate: 5
 paginate_path: "/blog/page:num/"
 plugins: 
