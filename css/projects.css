@@ -61,6 +61,25 @@
   background-color: #37474F;
 }
 
+.team-sec {
+  position: relative;
+  font-family: 'Love Ya Like A Sister', cursive;
+  line-height: 1;
+  font-weight: 500;
+  font-size: 60px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.team-section > .team-sec {
+  color: #f5f5f5;
+}
+
+.team-section {
+  position: relative;
+  /* background-color: #263238; */
+  padding-bottom: 50px;
+}
 
 .project-grid {
 

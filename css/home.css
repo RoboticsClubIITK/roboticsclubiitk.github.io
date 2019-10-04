@@ -364,9 +364,9 @@
     line-height: 2vw;
     color: rgba(255,255,255,1);
 }
-.cb-slideshow li:nth-child(1) span { background-image: url(../assets/images/ss/6.jpg) }
+.cb-slideshow li:nth-child(1) span { background-image: url(../assets/images/ss/takneek.png) }
 .cb-slideshow li:nth-child(2) span {
-    background-image: url(../assets/images/ss/3.jpg);
+    background-image: url(../assets/images/ss/6.jpg);
     -webkit-animation-delay: 6s;
     -moz-animation-delay: 6s;
     -o-animation-delay: 6s;
