@@ -10,7 +10,7 @@
 
 - name: Ayush Poddar
   facebook: ayush.poddar.37
-  linkedin: 
+  linkedin:
   image: AyushPoddar.jpg
 
 - name: Prashant Kumar
@@ -49,7 +49,7 @@
   image: BhuviGupta.jpg
 
 - name: Saurabh Ranjan
-  facebook: 
+  facebook:
   linkedin: saurabh-ranjan-052ba9144
   image: SaurabhRanjan.jpg
 
@@ -57,3 +57,23 @@
   facebook: ujjwal.varshney.58
   linkedin: ujjwal-varshney-162148129
   image: UjjwalVarshney.jpg
+
+- name: Ayush Singh
+  facebook: profile.php?id=100004637739173
+  linkedin:
+  image: ayush.png
+
+- name: Manas Rawat
+  facebook: manasrawat23
+  linkedin: manas-rawat
+  image: manas.png
+
+- name: Maneet Kaur
+  facebook: maneet.kaur.3785
+  linkedin:
+  image: maneet.jpg
+
+- name: Suraj Mishra
+  facebook:
+  linkedin:
+  image: SurajMishra.jpg
