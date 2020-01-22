@@ -21,25 +21,23 @@ permalink: /problems/
       <h3>How to get 3.3V?</h3>
         <blockquote>
           <p>
-			At times 3.3 V is required, for example D+ and D- lines need 3.3V levels or when working with gyro or accelerometer sensor or Xbee wireless module. 
+			At times 3.3 V is required, for example D+ and D- lines need 3.3V levels or when working with gyro or accelerometer sensor or Xbee wireless module.
 			In such cases low drop regulator LE33 can be used to get 3.3V from 5V. Standard regulators such as the LM317 require at least ca. 2 V drop.
 		</p>
         </blockquote>
   </li>
-	</p>
-	
+
 		<h3>Is code  running at same frequency for what it is built?</h3>
 		<aside class="pull-quote">
         <blockquote>
           <p>
 			If code is not running at same frequency for what it is built, then there may be errornous behaviour in form of improper delays, reduced sampling rates for ADC, reduced accuracy, TSOPs not detecting, etc.
-			Sometimes we write the code in CVAVR with frequency of 8MHz but forget to change it in AVR studio. Go to fuse bits in AVR studio and select-internal 8MHz+0ms CLK in dropdownlist. Always take care to set 
+			Sometimes we write the code in CVAVR with frequency of 8MHz but forget to change it in AVR studio. Go to fuse bits in AVR studio and select-internal 8MHz+0ms CLK in dropdownlist. Always take care to set
 			internal clock and not external clock. If Atmega is once programmed with clock as external, then atmega can't be reprogrammed until external crystal/oscillator is used.
 		</p>
         </blockquote>
       </aside>
-	</p>
-	
+
 			<h3>Input pin of Atmega can't be pulled down..</h3>
 		<aside class="pull-quote">
         <blockquote>
@@ -49,14 +47,13 @@ permalink: /problems/
 		</p>
         </blockquote>
       </aside>
-	</p>
-	
+
 			<h3>DC Hub Motor</h3>
 		<aside class="pull-quote">
         <blockquote>
           <p>
 			problem we found out while driving a brushless dc hub motor :
-			if we give constant voltage at the accelerator pin....the motor does not work. 
+			if we give constant voltage at the accelerator pin....the motor does not work.
 			<br/><br/>
 			solutions that worked :
 			<br/>
@@ -69,148 +66,135 @@ permalink: /problems/
 		</p>
         </blockquote>
       </aside>
-	</p>
-	
+
 			<h3>Programmer connects but unable to program</h3>
 		<aside class="pull-quote">
         <blockquote>
-          <p>For USB programmers, 74126 IC might be faulty. Try changing it. Or the connectors may be loose. 
-			Make sure that the pins used for programming PB5(MOSI), PB6(MISO), PB7(SCK) are free and are not being driven by any other sensor or electronic component. 
+          <p>For USB programmers, 74126 IC might be faulty. Try changing it. Or the connectors may be loose.
+			Make sure that the pins used for programming PB5(MOSI), PB6(MISO), PB7(SCK) are free and are not being driven by any other sensor or electronic component.
 			This mistake is little difficult to figure out as signature are still read but wrong and we end up in false conclusion that uC is faulty. </p>
         </blockquote>
       </aside>
-	</p>
-	
+
 			<h3>L293 PWM</h3>
 		<aside class="pull-quote">
         <blockquote>
           <p>The motor driver should ideally show linear behaviour for output voltage with the duty cycle of PWM. The datasheet of L293D datasheet ( by ST microelectronics)
-			mentions maximum switching frequency to be 5 Khz. Using higher timer frequency of PWM causes the motor driver to malfunction. If running uC on 8 Mhz, timer 
+			mentions maximum switching frequency to be 5 Khz. Using higher timer frequency of PWM causes the motor driver to malfunction. If running uC on 8 Mhz, timer
 			frequency should less or equal to 125 Khz.</p>
         </blockquote>
       </aside>
-	</p>
-	
+
 			<h3>Problem with TSOP 1738</h3>
 		<aside class="pull-quote">
         <blockquote>
-          <p>Sometimes the problem is with generating 38Khz frequency. If timer frequency is set to 8Mhz, then set OCR value to 0x68 or 0x69 and if timer frequency is 1Mhz, set OCR value to 0xC. 
+          <p>Sometimes the problem is with generating 38Khz frequency. If timer frequency is set to 8Mhz, then set OCR value to 0x68 or 0x69 and if timer frequency is 1Mhz, set OCR value to 0xC.
 			This you might be knowing already. If sensor still don't works, check out the fuse bits.
-			While programming the Atmega16/32, under the fuse bits, check for oscillator frequency. 
-			It should be same as the chip frequency selected during wizard in CVAVR. If not then select appropriate frequency and program the fuse bits. 
+			While programming the Atmega16/32, under the fuse bits, check for oscillator frequency.
+			It should be same as the chip frequency selected during wizard in CVAVR. If not then select appropriate frequency and program the fuse bits.
 			Always take care to set internal clock and not external clock.</p>
         </blockquote>
       </aside>
-	</p>
-	
+
 			<h3>Problem with connecting programmer</h3>
 		<aside class="pull-quote">
         <blockquote>
-          <p>First of all make sure that the drivers for the programmer are installed. The drivers to be installed are <avrcdc_inf> 
-			for STK500 USB programmer. For 64-bit computers, restart computer and press F8 continuously(actually it is to be pressed when cursor 
-			flashes for the first time but that time is very short) and select "Disable digital signature enforcment" on the menu that appears. 
-			If still you are unable to connect programmer in AVR studio, then go to device manager and select the port for your programmer(remove 
-			and then insert your programmer to see the port). Go to its properties and then select port as COM1 or COM2 ( or any other. Ensure that 
+          <p>First of all make sure that the drivers for the programmer are installed. The drivers to be installed are <avrcdc_inf>
+			for STK500 USB programmer. For 64-bit computers, restart computer and press F8 continuously(actually it is to be pressed when cursor
+			flashes for the first time but that time is very short) and select "Disable digital signature enforcment" on the menu that appears.
+			If still you are unable to connect programmer in AVR studio, then go to device manager and select the port for your programmer(remove
+			and then insert your programmer to see the port). Go to its properties and then select port as COM1 or COM2 ( or any other. Ensure that
 			AVR Studio scans that port. AVR studio 4 scans from COM1 to COM9). Now, try to connect. If still not connected, restart computer ( don't forget " Disable .." for 64-bit during booting). Now connect.
 			Pressing F8 everytime on restart can be a serious pain. To the rescue come the digital signature overrider software to make job easy. Search the net for them. Enjoy!!!</p>
         </blockquote>
       </aside>
-	</p>
-	
+
 			<h3>Skidding problem..</h3>
 		<aside class="pull-quote">
         <blockquote>
-          <p>Wondering why your wheels are skidding even though you have attached smooth castor wheel in front of bot. 
-			The castor wheels are smooth but if pressure is put on them, then they are no more free. The problem might be that there is much weight on castor. 
+          <p>Wondering why your wheels are skidding even though you have attached smooth castor wheel in front of bot.
+			The castor wheels are smooth but if pressure is put on them, then they are no more free. The problem might be that there is much weight on castor.
 			Try transferring load(like batteries) to back on driving motors or add extra weight on back.</p>
         </blockquote>
       </aside>
-	</p>
-	
+
 			<h3>LCD is not showing text</h3>
 		<aside class="pull-quote">
         <blockquote>
           <p>Backlight light of LCD is glowing but text not shown. Check out if correct resistors are connected to LCD. Actually one of the resistor decides the brightness of text. The wrong resistor may make
 			brighness of text too low to be visible.
-			You might have forgot to disable JTAG in fuse settings. Character LCD don't work when JTAG is enabled. JTAG is required for graphics LCD. 'Disabling the JTAG' is irreversible setting, 
+			You might have forgot to disable JTAG in fuse settings. Character LCD don't work when JTAG is enabled. JTAG is required for graphics LCD. 'Disabling the JTAG' is irreversible setting,
 			so decide if you are going to use Character LCD or graphics LCD before changing fuse settings. We normally use character LCDs.</p>
         </blockquote>
       </aside>
-	</p>
-	
+
 			<h3>Circuit is resetting again and again</h3>
 		<aside class="pull-quote">
         <blockquote>
           <p>If you are using microcontroller and motor drivers to drive motors, whole circuit being supplied by single power source( battery or adapter), then there are chances that circuit is resetting.
-			First of all check out maximum current that battery or adapter can give. Battery can't give infinite current. There is always maximum limit current which can be safely drawn without 
-			much drop in output voltage or damaging battery. For example 2S 2000mAh can give maximum current of 4000mA( 2x2000). The requirement of your circuit must be less than that. Remember 16x2 
+			First of all check out maximum current that battery or adapter can give. Battery can't give infinite current. There is always maximum limit current which can be safely drawn without
+			much drop in output voltage or damaging battery. For example 2S 2000mAh can give maximum current of 4000mA( 2x2000). The requirement of your circuit must be less than that. Remember 16x2
 			LCD can draw current upto 500mA.
 			The current requirements of motors change when they are running or stopped. So when motors change their state( stop, change direction, start running) the current flowing
-			though battery changes in very short time. This may create small voltage ripple(might be for only mirosecondseconds) at the output of 7805 IC and reset the microcontroller. 
+			though battery changes in very short time. This may create small voltage ripple(might be for only mirosecondseconds) at the output of 7805 IC and reset the microcontroller.
 			So even batteries with high discharge rates can cause resetting. Use separate batteries for motor driver(L293/L298) and microcontroller to avoid reset.
-			Other solution is make use of decoupling capacitors ( decoupling is nothing special. It is just normal capacitor) between the 7805 5V output and groud. 
+			Other solution is make use of decoupling capacitors ( decoupling is nothing special. It is just normal capacitor) between the 7805 5V output and groud.
 			Also between battery output and ground. I don't know the value of the capacitors to be used. Find yourself!!!</p>
         </blockquote>
       </aside>
-	</p>
-	
+
 			<h3>Have you made the ground common?</h3>
 		<aside class="pull-quote">
         <blockquote>
-          <p>This is mistake often committed. Make sure the GND pins of all electronic components used have there GND connected to one terminals. 
+          <p>This is mistake often committed. Make sure the GND pins of all electronic components used have there GND connected to one terminals.
 			If using more than one power source then their GND must be connected otherwise the circuit may behave unexpectedly.</p>
         </blockquote>
       </aside>
-	</p>
-	
+
 			<h3>Oh no! Size of .hex file is little more than 16KB</h3>
 		<aside class="pull-quote">
         <blockquote>
-          <p>The size of your .hex file can change depending upon the optimization settings. I have CodeVisionAVR Version: 2.04.8b Evalution. 
-			For that go to "Project -> Configure". Under "C Compiler" tab and then under "Code Generation" tab. Select "Size" for "Optimise for:" and "Maximal" 
+          <p>The size of your .hex file can change depending upon the optimization settings. I have CodeVisionAVR Version: 2.04.8b Evalution.
+			For that go to "Project -> Configure". Under "C Compiler" tab and then under "Code Generation" tab. Select "Size" for "Optimise for:" and "Maximal"
 			for "Optimization Level". If that is the setting already done, then I can't help make new code for Atmega32 instead of Atmega16.
 			If your code is very small, you may select "Speed" in "Optimize for:"</p>
         </blockquote>
       </aside>
-	</p>
-	
+
 			<h3>Max232 Serial level converter..</h3>
 		<aside class="pull-quote">
         <blockquote>
-          <p>When communicating with various micro processors/uC one needs to convert the RS232 levels down to lower TTL logic levels, typically 3.3 or 5.0 Volts. 
-			Under RS232 levels volatage between 3 between 15 V represents represents logic 0 and voltage between minus 3 and minus 15 represents logic 1. 
+          <p>When communicating with various micro processors/uC one needs to convert the RS232 levels down to lower TTL logic levels, typically 3.3 or 5.0 Volts.
+			Under RS232 levels volatage between 3 between 15 V represents represents logic 0 and voltage between minus 3 and minus 15 represents logic 1.
 			To receive serial data from an RS-232 interface the voltage has to be reduced.  Also the low and high voltage level has to be inverted.
-			The MAX232 from Maxim was the first IC which in one package contains the necessary drivers and receivers to adapt the RS-232 signal voltage levels to TTL logic. 
+			The MAX232 from Maxim was the first IC which in one package contains the necessary drivers and receivers to adapt the RS-232 signal voltage levels to TTL logic.
 			It became popular, because it just needs one voltage (+5V or +3.3V) and generates the necessary RS-232 voltage levels.<br/><br/>
 			Go to <a href='http://sodoityourself.com/max232-serial-level-converter' target='_blank'>Main article</a></p>
         </blockquote>
       </aside>
-	</p>
-	
+
 			<h3>What is ISP mode?</h3>
 		<aside class="pull-quote">
         <blockquote>
-          <p>In-System Programming (ISP) is the ability of some programmable logic devices, micro controllers, and other programmable electronic chips to be programmed while 
-			installed in a complete system, rather than requiring the chip to be programmed prior to installing it into the system. AVR line of microcontrollers (such as Atmega series ) 
-			support this feature. You use it always without thinking much about it. Normally, we program Atmega when it is still on development board and not even care to switch off any other circuit attached to Atmega. 
-			This is because we program in ISP mode. When programming in AVR Studio, 
+          <p>In-System Programming (ISP) is the ability of some programmable logic devices, micro controllers, and other programmable electronic chips to be programmed while
+			installed in a complete system, rather than requiring the chip to be programmed prior to installing it into the system. AVR line of microcontrollers (such as Atmega series )
+			support this feature. You use it always without thinking much about it. Normally, we program Atmega when it is still on development board and not even care to switch off any other circuit attached to Atmega.
+			This is because we program in ISP mode. When programming in AVR Studio,
 			after connecting to programmer, under 'Main' tab and then under 'Programming mode and Target Settings', ISP is selected by default.</p>
         </blockquote>
       </aside>
-	</p>
-	
+
 			<h3>What does those numbers on IC mean?</h3>
 		<aside class="pull-quote">
         <blockquote>
-          <p>Reading an IC (integrated circuit) part number is a simple process which will allow the reader to determine the chip's manufacturer and technical specifications. 
-			All IC chips have a two-part serial number. The first part of the serial number delineates the manufacturer's information. The second part of the serial number indicates 
-			the IC's technical specifications. Many IC manufacturers produce identical chips with the same technical specifications. In the case of the serial number "MC74HC00," the 
-			"MC" field indicates the manufacturer Motorola and the "74HC00" field indicates that the chip is a Quad 2-input NAND gate IC. The manufacturer and make of an IC can be referenced 
+          <p>Reading an IC (integrated circuit) part number is a simple process which will allow the reader to determine the chip's manufacturer and technical specifications.
+			All IC chips have a two-part serial number. The first part of the serial number delineates the manufacturer's information. The second part of the serial number indicates
+			the IC's technical specifications. Many IC manufacturers produce identical chips with the same technical specifications. In the case of the serial number "MC74HC00," the
+			"MC" field indicates the manufacturer Motorola and the "74HC00" field indicates that the chip is a Quad 2-input NAND gate IC. The manufacturer and make of an IC can be referenced
 			easily by obtaining a data sheet that corresponds to the IC's serial number.</p>
         </blockquote>
       </aside>
-	</p>
-	
+
 			<h3>Different type of memory in uC</h3>
 		<aside class="pull-quote">
         <blockquote>
@@ -218,7 +202,7 @@ permalink: /problems/
 			retain your program even when power goes off. Next time it powers up, your code will
 			run again. However, it is electrically erasable so you may use your programmer to
 			program it and re-program it.
-			<br/><br/> 
+			<br/><br/>
 			RAM memory for holding runtime data, say variables that change during execution and
 			are not to be remembered forever, they will be lost when power goes off.
 			<br/><br/>
