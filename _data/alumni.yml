@@ -77,3 +77,27 @@
   facebook:
   linkedin:
   image: SurajMishra.jpg
+  
+- name: Abhay Varshney
+  github: abhayvar
+  facebook: abhay.varshney.90
+  mob: 9559015388
+  add: H-205/Hall-5
+  email: abhayvar
+  image: abhay.jpg
+
+- name: Madhur Deep Jain
+  github: madhurdeepjain
+  facebook: madhurdeepjain
+  mob: 8894051687
+  add: G-109/Hall-5
+  email: mdjain
+  image: madhur.jpg
+
+- name: Neil Shirude
+  github:
+  facebook: neil.shirude
+  mob: 9850892135
+  add: H-208/Hall-5
+  email: neilrs
+  image: neil.jpg
