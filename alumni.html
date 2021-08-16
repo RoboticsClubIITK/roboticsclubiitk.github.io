@@ -12,7 +12,7 @@ permalink: /alumni/
   	<div class="mdl-cell mdl-cell--2-col mdl-cell--0-col-tablet mdl-cell--0-col-phone"></div>
   	{% assign count = 0 %}
 		{% assign counter = 0 %}
-	  		{% assign counter_1 = 0 %}
+<!-- 	  		{% assign counter_1 = 0 %} -->
   	{% for alumni in site.data.alumni %}
 		{% if count==0 %}
 			<div class="mdl-cell mdl-cell--1-col mdl-cell--0-col-tablet mdl-cell--0-col-phone"></div>
@@ -54,14 +54,14 @@ permalink: /alumni/
 		</div>
     </div>
     
-    {% if count == 3 %}
+<!--     {% if count == 3 %}
 	<div class="mdl-cell mdl-cell--2-col mdl-cell--0-col-tablet mdl-cell--0-col-phone"></div>
 	<div class="mdl-cell mdl-cell--2-col mdl-cell--0-col-tablet mdl-cell--0-col-phone"></div>
 	{% if counter_1>=4}
 	    {% assign count = 0 %}
 	    {% assign counter = counter | plus:1 %}
     	{% assign counter_1 = counter_1 | plus:1 %}
-    {% endif %}
+    {% endif %} -->
     {% if count == 4 %}
         <div class="mdl-cell mdl-cell--2-col mdl-cell--0-col-tablet mdl-cell--0-col-phone"></div>
     	<div class="mdl-cell mdl-cell--2-col mdl-cell--0-col-tablet mdl-cell--0-col-phone"></div>
