@@ -1,34 +1,23 @@
-
-name: Adit Khokar
-github: adit-khokar
-facebook: adit.khokar.3
-mob: 9149376852
-add: 13/D-603
-email: adit@iitk.ac.in
-image: adit.jpg
-
-name: Azhar		
-github: Azhar-999-coder
-facebook: azhar.tanweer
-mob: 7895358244
-add: 13/C502
-email: azhart@iitk.ac.in
-image: azhar.jpg
-
-name: Jaagrati Jain	
-github: jaagratijain
-facebook: jaagrati.jain.505
-mob: 9413772474
-add: 6/A502
-email: jaagrati@iitk.ac.in
-image: jaagrati.jpg
+- name: Prakash Choudhary
+  github: prakash1512
+  facebook: profile.php?id=100027160426571
+  mob: 6377993633
+  add: C-214/Hall-5
+  email: prkjat
+  image: prakash.jpg
   
-name: Prateek Jain	
-github: Prateekjain09
-facebook:
-mob: 8562042492
-add: 13/D307
-email: prateekj@iitk.ac.in	
-image: prateek.jpg
+- name: Ramyata Pate
+  github: 
+  facebook:
+  mob: 7397804500
+  add: 
+  email: ramyata
+  image: ramyata.jpg
 
-
+- name: Suman Singha
+  github: 
+  facebook: 
+  mob: 9163686230
+  add: 
+  email: ssingha
+  image: suman.jpg
