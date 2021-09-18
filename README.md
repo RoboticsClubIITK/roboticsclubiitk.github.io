@@ -10,6 +10,8 @@ First off, you'll need to **[install Ruby](https://www.digitalocean.com/communit
 
 ```gem install bundle```
 
+Avoid spaces between any of the directory names. Use underscore insted.
+
 Then, execute these in the repo directory:
 
 ```
