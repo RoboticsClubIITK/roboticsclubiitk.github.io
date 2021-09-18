@@ -9,6 +9,7 @@ permalink: /alumni/
 <div class="seci-section mdl-typography--text-center">
 
   <div class="seci-grid mdl-grid">
+	
   	<div class="mdl-cell mdl-cell--2-col mdl-cell--0-col-tablet mdl-cell--0-col-phone"></div>
   	{% assign count = 0 %}
 		{% assign counter = 0 %}
@@ -18,7 +19,7 @@ permalink: /alumni/
 			<div class="mdl-cell mdl-cell--2-col mdl-cell--0-col-tablet mdl-cell--0-col-phone"></div>
 			<div class="team-sec">20{{ 15 | plus:counter }}-20{{ 16 | plus:counter }}</div>
 			<div class="mdl-cell mdl-cell--2-col mdl-cell--0-col-tablet mdl-cell--0-col-phone"></div>
-    	<div class="mdl-cell mdl-cell--2-col mdl-cell--0-col-tablet mdl-cell--0-col-phone"></div>
+    	    <div class="mdl-cell mdl-cell--2-col mdl-cell--0-col-tablet mdl-cell--0-col-phone"></div>
 			<div class="mdl-cell mdl-cell--2-col mdl-cell--0-col-tablet mdl-cell--0-col-phone"></div>
 		{% endif %}
   	{% assign count = count | plus:1 %}
@@ -52,6 +53,12 @@ permalink: /alumni/
 			</div>
 		</div>
     </div>
+	{% if count == 3 and counter == 4 %}
+    	<div class="mdl-cell mdl-cell--3-col mdl-cell--0-col-tablet mdl-cell--0-col-phone"></div>
+    	<div class="mdl-cell mdl-cell--3-col mdl-cell--0-col-tablet mdl-cell--0-col-phone"></div>
+    	{% assign count = 0 %}
+			{% assign counter = counter | plus:1 %}
+    {% endif %}
     {% if count == 4 %}
     	<div class="mdl-cell mdl-cell--2-col mdl-cell--0-col-tablet mdl-cell--0-col-phone"></div>
     	<div class="mdl-cell mdl-cell--2-col mdl-cell--0-col-tablet mdl-cell--0-col-phone"></div>
