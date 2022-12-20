@@ -78,14 +78,14 @@ a img{
   width: auto;
 }
 
-.fab {
+/* .fab {
   position: absolute;
   right: 20%;
   bottom: -26px;
   z-index: 3;
   background: #64ffda !important;
   color: black !important;
-}
+} */
 
 .mobile-title {
   display: none !important;
@@ -350,9 +350,9 @@ a img{
     height: 12px;
   }
 
-  .fab {
+  /* .fab {
     display: none;
-  }
+  } */
 
   .main-footer .mdl-mega-footer--bottom-section {
     display: none;

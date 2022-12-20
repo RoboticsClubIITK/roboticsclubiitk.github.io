@@ -12,7 +12,7 @@
   padding-bottom: 20px;
 }
 
-.cordi-section > .team-sec {
+.cordi-section>.team-sec {
   color: #f5f5f5;
 }
 
@@ -26,23 +26,24 @@
   width: 100%;
   margin: auto;
   height: 23vw;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
 
 }
 
 .cordi-card:hover {
-  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
-.cordi-details{
+.cordi-details {
   font-family: 'Saira Condensed', sans-serif;
   background-color: #fff;
   color: #616161;
   padding: 15px;
   font-size: 18px;
 }
-.cordi-name{
+
+.cordi-name {
   font-family: 'Archivo Black', sans-serif;
   font-size: 18px;
   line-height: 1.2;
@@ -51,11 +52,11 @@
   background-color: #EF5350;
 }
 
-.cordi-card > .mdl-card__title {
+.cordi-card>.mdl-card__title {
   color: #fff;
 }
 
-.seci-section > .team-sec {
+.seci-section>.team-sec {
   color: #414141;
 }
 
@@ -69,23 +70,24 @@
   width: 100%;
   margin: auto;
   height: 21vw;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
 }
 
 .seci-card:hover {
-  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 
 }
 
-.seci-details{
+.seci-details {
   font-family: 'Saira Condensed', sans-serif;
   background-color: #fff;
   color: #616161;
   padding: 15px;
   font-size: 18px;
 }
-.seci-name{
+
+.seci-name {
   font-family: 'Archivo Black', sans-serif;
 
   font-size: 18px;
@@ -95,25 +97,236 @@
   background-color: #EF5350;
 }
 
-.seci-card > .mdl-card__title {
+.seci-card>.mdl-card__title {
   color: #fff;
 }
 
 /*##### For Mobile #####*/
 @media (max-width: 900px) {
 
-	.seci-card.mdl-card{
-		height: 350px;
-	}
+  .seci-card.mdl-card {
+    height: 350px;
+  }
 
-	.cordi-card.mdl-card{
-		height: 350px;
-	}
+  .cordi-card.mdl-card {
+    height: 350px;
+  }
 
 
   .team-sec {
     font-size: 40px;
     margin: 0;
     padding-top: 20px;
+  }
+}
+
+
+.profile {
+  font-family: 'Poppins', sans-serif;
+  color: #0e2431;
+  background: #f3f2f2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.section-title-01{
+  font-family: 'Poppins', sans-serif;
+  font-size: 4.5em;
+  font-weight: 800;
+  margin-bottom: 2rem;
+  background: linear-gradient(to top, transparent 0%, #0e2431 70%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  opacity: 0.1;
+}
+
+.section-title-02{
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.8em;
+  font-weight: 700;
+  transform: translateY(-80px);
+  margin: 16px 0px;
+}
+
+.section-title-02::before{
+  content: '';
+  position: absolute;
+  width: 70px;
+  height: 5px;
+  right: 0;
+  bottom: 0;
+  background: #004d69;
+}
+
+
+.card-wrapper {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  top: -50px;
+}
+
+.card {
+  /* top:50%;
+  left:50%;
+  transform: translate(-50%,-50%); */
+  position: relative;
+  width: 255px;
+  height: 320px;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 5px 18px rgb(0 0 0 / 60%);
+  cursor: pointer;
+  transition: 0.5s;
+  margin: 20px 20px;
+}
+
+.card .card-image {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  background: #000;
+  transition: 0.5s;
+}
+
+.card .card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card:hover img {
+  opacity: 0.3;
+  transition: 0.5s;
+}
+
+.card:hover .card-image {
+  /* transform:translateY(-100px); */
+  transition: all 0.9s;
+}
+
+.social-icons {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-58%, -50%);
+  z-index: 3;
+  display: flex;
+}
+
+.social-icons li {
+  list-style: none;
+}
+
+.social-icons li a {
+  position: relative;
+  display: block;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  background-color: #fff;
+  font-size: 21px;
+  color: #333;
+  font-weight: bold;
+  margin: 0 6px;
+  transition: 0.4s;
+  transform: translateY(200px);
+  opacity: 0;
+}
+
+.card:hover .social-icons li a {
+  transform: translateY(0px);
+  opacity: 1;
+}
+
+.social-icons li a:hover {
+  background: #000;
+  transition: 0.2s;
+}
+
+.social-icons li a:hover .fab {
+  color: #fff;
+}
+
+.social-icons li a .fab {
+  transition: 0.8s;
+}
+
+.social-icons li a .fab:hover {
+  transform: rotateY(360deg);
+  color: #fff;
+}
+
+.card:hover li:nth-child(1) a {
+  transition-delay: 0.1s;
+}
+
+.card:hover li:nth-child(2) a {
+  transition-delay: 0.2s;
+}
+
+.card:hover li:nth-child(3) a {
+  transition-delay: 0.3s;
+}
+
+.card:hover li:nth-child(4) a {
+  transition-delay: 0.4s;
+}
+
+.details {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background: #fff;
+  width: 100%;
+  height: 85px;
+  z-index: 1;
+  padding: 10px 0px;
+  transform: translateY(100px);
+}
+
+.card:hover .details {
+  z-index: 2;
+  transition: all 0.9s ease;
+  transform: translateY(0px);
+}
+
+.details h2 {
+  font-family: 'Poppins', sans-serif;
+  margin: 0px 0px;
+  padding: 0;
+  text-align: center;
+  font-size: 25px;
+}
+
+.details .job-title {
+  font-size: 1.1rem;
+  /* line-height: 2.5rem; */
+  color: #333;
+  text-align: center;
+  font-weight: 500;
+  margin: 0px 0px;
+  font-family: 'Poppins', sans-serif;
+}
+
+@media (max-width:767px) {
+  .card-wrapper {
+    width: 90%;
+    grid-template-columns: repeat(1,1fr);
+  }
+
+  .section-title-01{
+    font-size: 3.0em;
+  }
+
+  .section-title-02{
+    font-size: 2.2em;
   }
 }
