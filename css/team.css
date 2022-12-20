@@ -316,10 +316,17 @@
   font-family: 'Poppins', sans-serif;
 }
 
-@media (max-width:767px) {
+@media (max-width:768px) {
   .card-wrapper {
     width: 90%;
-    grid-template-columns: repeat(1,1fr);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .card{
+    margin: 20px 40px;
   }
 
   .section-title-01{
@@ -328,5 +335,13 @@
 
   .section-title-02{
     font-size: 2.2em;
+  }
+}
+
+@media (max-width:1025px){
+  .card{
+    width: 220px;
+    height: 300px;
+    margin: 20px 10px;
   }
 }
