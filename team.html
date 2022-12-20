@@ -5,133 +5,63 @@ style: team
 permalink: /team/
 ---
 <a name="top"></a>
-<div class="cordi-section mdl-typography--text-center">
-
-	<div class="team-sec">Coordinators</div>
-  <div class="cordi-grid mdl-grid">
-  	<div class="mdl-cell mdl-cell--2-col mdl-cell--0-col-tablet mdl-cell--0-col-phone"></div>
-  	{% for cordi in site.data.cordis %}
-    <div class="mdl-cell mdl-cell--2-col mdl-cell--2-col-tablet mdl-cell--4-col-phone">
-		<div class="cordi-card mdl-card mdl-shadow--2dp">
-			<div class="mdl-card__title mdl-card--expand" style="background:
-			url('../assets/images/cordi/{{ cordi.image }}') center / cover #46B6AC;">
-			</div>
-			<div class="cordi-details">
-				<center>
-				  {{ cordi.add }}<br>
-				  {{ cordi.mob }}<br>
-				  {{ cordi.email }}@iitk.ac.in
-				</center>
-			</div>
-		  	<div class="cordi-name mdl-shadow--2dp">
-		        <center>
-		         {{ cordi.name }}
-		        </center>
-			</div>
-			<div class="mdl-card__menu" style="color: #fff;">
-			    {% if cordi.facebook %}
-			    <a target="_blank" href="https://www.facebook.com/{{ cordi.facebook }}" style="text-decoration: none;">
-			        <button class="mdl-button  mdl-button--icon mdl-js-button mdl-js-ripple-effect">
-			          <svg xmlns="http://www.w3.org/2000/svg" width="80%" height="80%" viewBox="0 0 20 18">
-			            <path class="foreground" fill="#fff" d="m 11.03968,16.000001 v -6.19608 h 2.07973 l 0.31141,-2.41472 h -2.39114 v -1.54165 c 0,-0.69912 0.19414,-1.17555 1.19666,-1.17555 l 1.27866,-5.6e-4 v -2.15974 c -0.22114,-0.0294 -0.98017,-0.0952 -1.86324,-0.0952 -1.8435605,0 -3.1057105,1.12532 -3.1057105,3.19188 v 1.7808 h -2.08506 v 2.41472 h 2.08506 v 6.19608 H 11.03968 z"></path>
-			          </svg>
-			        </button>
-			    </a>
-			    {% endif %}
-			    {% if cordi.github %}
-			    <a target="_blank" href="https://github.com/{{ cordi.github }}" style="text-decoration: none;">
-			        <button class="mdl-button  mdl-button--icon mdl-js-button mdl-js-ripple-effect">
-			          <span class="">
-			            <svg  height="80%" viewBox="0 0 16 17">
-			              <path fill="#fff" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"></path>
-			            </svg>
-			          </span>
-			        </button>
-			    </a>
-			    {% endif %}
-				{% if cordi.linkedin %}
-			    <a target="_blank" href="{{cordi.linkedin}}" style="text-decoration: none;">
-			        <button class="mdl-button  mdl-button--icon mdl-js-button mdl-js-ripple-effect">
-			          <span class="">
-			            <svg  height="80%" viewBox="0 0 16 17">
-			              <path fill="#fff" d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2 16h-2v-6h2v6zm-1-6.891c-.607 0-1.1-.496-1.1-1.109 0-.612.492-1.109 1.1-1.109s1.1.497 1.1 1.109c0 .613-.493 1.109-1.1 1.109zm8 6.891h-1.998v-2.861c0-1.881-2.002-1.722-2.002 0v2.861h-2v-6h2v1.093c.872-1.616 4-1.736 4 1.548v3.359z"></path>
-			            </svg>
-			          </span>
-			        </button>
-			    </a>
-			    {% endif %}
-			</div>
+<div class="profile">
+	<h1 class="section-title-01">Coordinators</h1>
+	<h2 class="section-title-02">Coordinators</h2>
+	<div class="card-wrapper">
+		{% for cordi in site.data.cordis %}
+		<div class="card">
+		  <div class="card-image">
+			<img src="../assets/images/cordi/{{ cordi.image }}" alt="profile-card">
+		  </div> 
+		  <ul class="social-icons">
+			{% if cordi.facebook %}
+			<li><a target="_blank" href="{{ cordi.facebook }}"><i class="fab fa-facebook-f"></i></a></li>
+			{% endif %}
+			{% if cordi.linkedin %}
+			<li><a target="_blank" href="{{cordi.linkedin}}"><i class="fab fa-linkedin-in"></i></a></li>
+			{% endif %}
+			{% if cordi.github %}
+			<li><a target="_blank" href="{{ cordi.github }}"><i class="fab fa-github"></i></a></li>
+			{% endif %}
+		  </ul>
+		  <div class="details">
+			<h2>{{ cordi.name }}</h2>
+			<p class="job-title">{{ cordi.mob }}</p>
+			<p class="job-title">{{ cordi.email }}</p>
+		  </div>
 		</div>
-    </div>
-    {% endfor %}
-  </div>
+		{% endfor %}
+	</div>
 </div>
 
-<div class="seci-section mdl-typography--text-center">
 
-	<div class="team-sec">Secretaries</div>
-  <div class="seci-grid mdl-grid">
-  	<div class="mdl-cell mdl-cell--2-col mdl-cell--0-col-tablet mdl-cell--0-col-phone"></div>
-  	{% assign count = 0 %}
-  	{% for seci in site.data.secys %}
-  	{% assign count = count | plus:1 %}
-    <div class="mdl-cell mdl-cell--2-col mdl-cell--2-col-tablet mdl-cell--4-col-phone">
-		<div class="seci-card mdl-card mdl-shadow--2dp">
-			<div class="mdl-card__title mdl-card--expand" style="background:
-			url('../assets/images/seci/{{ seci.image }}') center / cover #46B6AC;">
-			</div>
-			<div class="seci-details">
-				<center>
-				  {{ seci.add }}<br>
-				  {{ seci.mob }}<br>
-				  {{ seci.email }}
-				</center>
-			</div>
-		  	<div class="seci-name mdl-shadow--2dp">
-		        <center>
-		         {{ seci.name }}
-		        </center>
-			</div>
-			<div class="mdl-card__menu" style="color: #fff;">
-				{% if seci.facebook %}
-			    <a target="_blank" href="https://www.facebook.com/{{ seci.facebook }}" style="text-decoration: none;">
-			        <button class="mdl-button  mdl-button--icon mdl-js-button mdl-js-ripple-effect">
-			          <svg xmlns="http://www.w3.org/2000/svg" width="80%" height="80%" viewBox="0 0 20 18">
-			            <path class="foreground" fill="#fff" d="m 11.03968,16.000001 v -6.19608 h 2.07973 l 0.31141,-2.41472 h -2.39114 v -1.54165 c 0,-0.69912 0.19414,-1.17555 1.19666,-1.17555 l 1.27866,-5.6e-4 v -2.15974 c -0.22114,-0.0294 -0.98017,-0.0952 -1.86324,-0.0952 -1.8435605,0 -3.1057105,1.12532 -3.1057105,3.19188 v 1.7808 h -2.08506 v 2.41472 h 2.08506 v 6.19608 H 11.03968 z"></path>
-			          </svg>
-			        </button>
-			    </a>
-			    {% endif %}
-			    {% if seci.github %}
-			    <a target="_blank" href="https://github.com/{{ seci.github }}" style="text-decoration: none;">
-			        <button class="mdl-button  mdl-button--icon mdl-js-button mdl-js-ripple-effect">
-			          <span class="">
-			            <svg  height="80%" viewBox="0 0 16 17">
-			              <path fill="#fff" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"></path>
-			            </svg>
-			          </span>
-			        </button>
-			    </a>
-			    {% endif %}
-				{% if seci.linkedin %}
-			    <a target="_blank" href="{{seci.linkedin}}" style="text-decoration: none;">
-			        <button class="mdl-button  mdl-button--icon mdl-js-button mdl-js-ripple-effect">
-			          <span class="">
-			            <svg  height="80%" viewBox="0 0 16 17">
-			              <path fill="#fff" d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm-2 16h-2v-6h2v6zm-1-6.891c-.607 0-1.1-.496-1.1-1.109 0-.612.492-1.109 1.1-1.109s1.1.497 1.1 1.109c0 .613-.493 1.109-1.1 1.109zm8 6.891h-1.998v-2.861c0-1.881-2.002-1.722-2.002 0v2.861h-2v-6h2v1.093c.872-1.616 4-1.736 4 1.548v3.359z"></path>
-			            </svg>
-			          </span>
-			        </button>
-			    </a>
-			    {% endif %}
-			</div>
+<div class="profile">
+	<h1 class="section-title-01">Secretaries</h1>
+	<h2 class="section-title-02">Secretaries</h2>
+	<div class="card-wrapper">
+		{% for seci in site.data.secys %}
+		<div class="card">
+		  <div class="card-image">
+			<img src="../assets/images/seci/{{ seci.image }}" alt="profile-card">
+		  </div> 
+		  <ul class="social-icons">
+			{% if seci.facebook %}
+			<li><a target="_blank" href="{{ seci.facebook }}"><i class="fab fa-facebook-f"></i></a></li>
+			{% endif %}
+			{% if seci.linkedin %}
+			<li><a target="_blank" href="{{seci.linkedin}}"><i class="fab fa-linkedin-in"></i></a></li>
+			{% endif %}
+			{% if seci.github %}
+			<li><a target="_blank" href="{{ seci.github }}"><i class="fab fa-github"></i></a></li>
+			{% endif %}
+		  </ul>
+		  <div class="details">
+			<h2> {{ seci.name }}</h2>
+			<p class="job-title">{{ seci.mob }}</p>
+			<p class="job-title">{{ seci.email }}</p>
+		  </div>
 		</div>
-    </div>
-    {% if count == 4 %}
-    	<div class="mdl-cell mdl-cell--2-col mdl-cell--0-col-tablet mdl-cell--0-col-phone"></div>
-    	<div class="mdl-cell mdl-cell--2-col mdl-cell--0-col-tablet mdl-cell--0-col-phone"></div>
-    	{% assign count = 0 %}
-    {% endif %}
-    {% endfor %}
-  </div>
+		{% endfor %}
+	</div>
 </div>
