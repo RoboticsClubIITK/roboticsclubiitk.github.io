@@ -1,130 +1,38 @@
-- name: Aakash Gupta
-  facebook: aakashg57
-  linkedin: aakashg57
-  image: AakashGupta.jpg
-
-- name: Amit Saharan
-  facebook: asaharan812
-  linkedin: amit-kumar-4a59b383
-  image: AmitSaharan.jpeg
-
-- name: Ayush Poddar
-  facebook: ayush.poddar.37
-  linkedin:
-  image: AyushPoddar.jpg
-
-- name: Prashant Kumar
-  facebook: hello.prshntk
-  linkedin: prashantkumar42
-  image: PrashantKumar.jpg
-
-- name: Ankit Kumar
-  facebook: iitk.ankit
-  linkedin: a-nkit
-  image: AnkitKumar.jpg
-
-- name: Anvesh Jadon
-  facebook: anveshjadon6197
-  linkedin: anvesh-jadon-b624b3109
-  image: AnveshJadon.jpeg
-
-- name: Hemant Kumar
-  facebook: hemant96kumar
-  linkedin: hemant-kumar-83bb48104
-  image: HemantKumar.jpg
-
-- name: Mayank Mittal
-  facebook: mayankm.1596
-  linkedin: mayankm-0096
-  image: MayankMittal.jpg
-
-- name: Akash Jain
-  facebook: akashjain5396
-  linkedin: akashjain5396
-  image: AkashJain.jpg
-
-- name: Bhuvi Gupta
-  facebook: bhuvigupta2698
-  linkedin: bhuvigupta98
-  image: BhuviGupta.jpg
-
-- name: Saurabh Ranjan
-  facebook:
-  linkedin: saurabh-ranjan-052ba9144
-  image: SaurabhRanjan.jpg
-
-- name: Ujjwal Varshney
-  facebook: ujjwal.varshney.58
-  linkedin: ujjwal-varshney-162148129
-  image: UjjwalVarshney.jpg
-
-- name: Ayush Singh
-  facebook: profile.php?id=100004637739173
-  linkedin:
-  image: ayush.png
-
-- name: Manas Rawat
-  facebook: manasrawat23
-  linkedin: manas-rawat
-  image: manas.png
-
-- name: Maneet Kaur
-  facebook: maneet.kaur.3785
-  linkedin:
-  image: maneet.jpg
-
-- name: Suraj Mishra
-  facebook:
-  linkedin:
-  image: SurajMishra.jpg
-  
-- name: Abhay Varshney
-  github: abhayvar
-  facebook: abhay.varshney.90
-  mob: 9559015388
-  add: H-205/Hall-5
-  email: abhayvar
-  image: abhay.jpg
-
-- name: Madhur Deep Jain
-  github: madhurdeepjain
-  facebook: madhurdeepjain
-  mob: 8894051687
-  add: G-109/Hall-5
-  email: mdjain
-  image: madhur.jpg
-
-- name: Neil Shirude
-  github:
-  facebook: neil.shirude
-  mob: 9850892135
-  add: H-208/Hall-5
-  email: neilrs
-  image: neil.jpg
-  
-- name: Prakash Choudhary
-  github: prakash1512
-  facebook: profile.php?id=100027160426571
-  mob: 6377993633
-  add: C-214/Hall-5
-  email: prkjat
-  image: prakash.jpg
-  
-- name: Ramyata Pate
-  github: 
-  facebook:
-  mob: 7397804500
+- name: Aryan Jain
+  github: https://github.com/aryanjain19
+  facebook: https://www.facebook.com/profile.php?id=100056025635847
+  mob: 8968134786
   add: 
-  email: ramyata
-  image: ramyata.jpg
+  email: writetoaryan19@gmail.com
+  image: Aryan.jpg
+  linkedin: https://www.linkedin.com/in/aryan-jain-1908/
 
-- name: Suman Singha
-  github: 
-  facebook: 
-  mob: 9163686230
+- name: Akshat Arya 
+  github: https://github.com/Ak-Ar 
+  facebook: https://www.facebook.com/profile.php?id=100057133705422
+  linkedin: https://www.linkedin.com/in/akshat-arya-4b0318202/
+  mob: 9314670664 
   add: 
-  email: ssingha
-  image: suman.jpg
+  email: akshatarya20@iitk.ac.in	
+  image: Akshat.jpg
+
+- name: Suhani
+  github: https://github.com/suhani-sharma
+  facebook: https://www.facebook.com/profile.php?id=100056018400116&mibextid=ZbWKwL
+  mob: 9914802525
+  add: 
+  email: suhani20@iitk.ac.in
+  image: Suhani.jpg
+  linkedin: https://www.linkedin.com/in/suhani-sharma-39a0591b3
+
+- name: Arnav Pandey
+  github: https://github.com/Arpanet007
+  facebook: https://www.facebook.com/arnav.pandey.37853?mibextid=ZbWKwL
+  mob: 6388798628
+  add: 
+  email: arnavp20@iitk.ac.in
+  image: Arnav.jpg
+  linkedin: https://www.linkedin.com/in/arnavp7/
 
 - name: Adit Khokar
   github: adit-khokar
@@ -162,8 +70,130 @@
   image: prateek.jpg
   linkedin: prateek-jain-2018311a9/
 
+- name: Prakash Choudhary
+  github: prakash1512
+  facebook: profile.php?id=100027160426571
+  mob: 6377993633
+  add: C-214/Hall-5
+  email: prkjat
+  image: prakash.jpg
+  
+- name: Ramyata Pate
+  github: 
+  facebook:
+  mob: 7397804500
+  add: 
+  email: ramyata
+  image: ramyata.jpg
 
+- name: Suman Singha
+  github: 
+  facebook: 
+  mob: 9163686230
+  add: 
+  email: ssingha
+  image: suman.jpg
 
+- name: Abhay Varshney
+  github: abhayvar
+  facebook: abhay.varshney.90
+  mob: 9559015388
+  add: H-205/Hall-5
+  email: abhayvar
+  image: abhay.jpg
 
+- name: Madhur Deep Jain
+  github: madhurdeepjain
+  facebook: madhurdeepjain
+  mob: 8894051687
+  add: G-109/Hall-5
+  email: mdjain
+  image: madhur.jpg
 
+- name: Neil Shirude
+  github:
+  facebook: neil.shirude
+  mob: 9850892135
+  add: H-208/Hall-5
+  email: neilrs
+  image: neil.jpg
 
+- name: Ayush Singh
+  facebook: profile.php?id=100004637739173
+  linkedin:
+  image: ayush.png
+
+- name: Manas Rawat
+  facebook: manasrawat23
+  linkedin: manas-rawat
+  image: manas.png
+
+- name: Maneet Kaur
+  facebook: maneet.kaur.3785
+  linkedin:
+  image: maneet.jpg
+
+- name: Suraj Mishra
+  facebook:
+  linkedin:
+  image: SurajMishra.jpg
+
+- name: Akash Jain
+  facebook: akashjain5396
+  linkedin: akashjain5396
+  image: AkashJain.jpg
+
+- name: Bhuvi Gupta
+  facebook: bhuvigupta2698
+  linkedin: bhuvigupta98
+  image: BhuviGupta.jpg
+
+- name: Saurabh Ranjan
+  facebook:
+  linkedin: saurabh-ranjan-052ba9144
+  image: SaurabhRanjan.jpg
+
+- name: Ujjwal Varshney
+  facebook: ujjwal.varshney.58
+  linkedin: ujjwal-varshney-162148129
+  image: UjjwalVarshney.jpg
+
+- name: Ankit Kumar
+  facebook: iitk.ankit
+  linkedin: a-nkit
+  image: AnkitKumar.jpg
+
+- name: Anvesh Jadon
+  facebook: anveshjadon6197
+  linkedin: anvesh-jadon-b624b3109
+  image: AnveshJadon.jpeg
+
+- name: Hemant Kumar
+  facebook: hemant96kumar
+  linkedin: hemant-kumar-83bb48104
+  image: HemantKumar.jpg
+
+- name: Mayank Mittal
+  facebook: mayankm.1596
+  linkedin: mayankm-0096
+  image: MayankMittal.jpg
+
+- name: Aakash Gupta
+  facebook: aakashg57
+  linkedin: aakashg57
+  image: AakashGupta.jpg
+
+- name: Amit Saharan
+  facebook: asaharan812
+  linkedin: amit-kumar-4a59b383
+  image: AmitSaharan.jpeg
+
+- name: Ayush Poddar
+  facebook: ayush.poddar.37
+  linkedin:
+  image: AyushPoddar.jpg
+
+- name: Prashant Kumar
+  facebook: hello.prshntk
+  linkedin: prashantkumar42
+  image: PrashantKumar.jpg

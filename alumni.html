@@ -11,8 +11,8 @@ permalink: /alumni/
 	{% assign counter = 0 %}
 	{% for alumni in site.data.alumni %}
 	{% if count==0 %}
-	<h1 class="section-title-01">20{{ 15 | plus:counter }}-20{{ 16 | plus:counter }}</h1>
-	<h2 class="section-title-02">20{{ 15 | plus:counter }}-20{{ 16 | plus:counter }}</h2>
+	<h1 class="section-title-01">20{{ 22 | minus:counter }}-20{{ 23 | minus:counter }}</h1>
+	<h2 class="section-title-02">20{{ 22 | minus:counter }}-20{{ 23 | minus:counter }}</h2>
 	<div class="card-wrapper">
 	{% endif %}
 		{% assign count = count | plus:1 %}
@@ -39,12 +39,12 @@ permalink: /alumni/
 				<!-- <p class="job-title">{{ cordi.email }}</p> -->
 			</div>
 		</div>
-		{% if count == 3 and counter == 4 %}
+		{% if count == 3 and counter == 2 %}
 		{% assign count = 0 %}
 		{% assign counter = counter | plus:1 %}
 	</div>
 		{% endif %}
-		{% if count == 3 and counter == 5 %}
+		{% if count == 3 and counter == 3 %}
 		{% assign count = 0 %}
 		{% assign counter = counter | plus:1 %}
 	</div>
