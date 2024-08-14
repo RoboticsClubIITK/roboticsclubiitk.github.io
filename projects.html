@@ -17,38 +17,12 @@ permalink: /projects/
 	</div>
 
 	<div class="team-section mdl-typography--text-center">
-		<div class="team-sec">Inter IIT Tech Meet 2019</div>
-		<div class="mdl-typography--text-justify">
-		  <div class="project-grid mdl-grid">
-			  <div class="mdl-cell mdl-4-col mdl-cell--0-col-tablet mdl-cell--0-col-phone"></div>
-
-			<div class="mdl-cell mdl-4-col mdl-cell--2-col-tablet mdl-cell--4-col-phone">
-				<a target="_blank" href="" style="text-decoration: none;" class="m-prj-card mdl-card mdl-shadow--2dp" id="m-prj-c">
-					<div class="mdl-card__title mdl-card--expand m-prj-tit" style="background:
-					url('') center / cover #46B6AC;">
-					</div>
-					  <div class="m-prj-name mdl-shadow--8dp">
-						<center>
-						 	PARAS(Partially Autononous Robot for Agriculture in Step farms)
-						</center>
-					</div>
-				</a>
-			</div>
-				<div class="mdl-cell mdl-cell--2-col mdl-cell--0-col-tablet mdl-cell--0-col-phone"></div>
-				<div class="mdl-cell mdl-cell--2-col mdl-cell--0-col-tablet mdl-cell--0-col-phone"></div>
-			  </div>
-			  <script type="text/javascript">
-			</script>
-		</div>
-	</div>
-
-	<div class="team-section mdl-typography--text-center">
-		<div class="team-sec">Summer 2019</div>
+		<div class="team-sec">Summer 2024</div>
 		<div class="mdl-typography--text-justify">
 		  <div class="project-grid mdl-grid">
 			  <div class="mdl-cell mdl-cell--2-col mdl-cell--0-col-tablet mdl-cell--0-col-phone"></div>
 			  {% assign count = 0 %}
-			  {% for proj in site.data.summer19 %}
+			  {% for proj in site.data.summer24 %}
 			  {% assign count = count | plus:1 %}
 			<div class="mdl-cell mdl-cell--2-col mdl-cell--2-col-tablet mdl-cell--4-col-phone">
 				<!-- <a target="_blank" href="{{ proj.link }}" style="text-decoration: none;" class="m-prj-card mdl-card mdl-shadow--2dp" id="m-prj-c"> -->
@@ -78,10 +52,36 @@ permalink: /projects/
 	</div>
 
 <div class="team-section mdl-typography--text-center">
-	<div class="team-sec">Teams</div>
-	{% include auv.html %}
+	<div class="team-sec">Ongoing Projects</div>
+	<div class="mdl-typography--text-justify">
+	  <div class="project-grid mdl-grid">
+	  	<div class="mdl-cell mdl-cell--2-col mdl-cell--0-col-tablet mdl-cell--0-col-phone"></div>
+	  	{% assign count = 0 %}
+	  	{% for proj in site.data.ongoing %}
+	  	{% assign count = count | plus:1 %}
+	    <div class="mdl-cell mdl-cell--2-col mdl-cell--2-col-tablet mdl-cell--4-col-phone">
+			<a target="_blank" href="{{ proj.link }}" style="text-decoration: none;" class="m-prj-card mdl-card mdl-shadow--2dp" id="m-prj-c">
+				<div class="mdl-card__title mdl-card--expand m-prj-tit" style="background:
+				url('../assets/images/projects/{{ proj.image }}') center / cover #46B6AC;">
+				</div>
+			  	<div class="m-prj-name mdl-shadow--8dp">
+			        <center>
+			         {{ proj.name }}
+			        </center>
+				</div>
+			</a>
+	    </div>
+	    {% if count == 4 %}
+	    	<div class="mdl-cell mdl-cell--2-col mdl-cell--0-col-tablet mdl-cell--0-col-phone"></div>
+	    	<div class="mdl-cell mdl-cell--2-col mdl-cell--0-col-tablet mdl-cell--0-col-phone"></div>
+	    	{% assign count = 0 %}
+	    {% endif %}
+	    {% endfor %}
+	  	</div>
+	  	<script type="text/javascript">
 
-	{% include huro.html %}
+		</script>
+	</div>
 </div>
 
 <div class="team-section mdl-typography--text-center">
