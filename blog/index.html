@@ -7,7 +7,7 @@ style: blog
 <a name="top"></a>
 <div class="hero-section "></div>
 <!--########## This loops through the paginated posts #####################################-->
-{% for post in paginator.posts %}
+{% for post in site.posts %}
 
 <div class="post-section mdl-typography--text-justify">
   <div class="post-grid mdl-grid">
@@ -38,11 +38,11 @@ style: blog
 {% endfor %}
 
 <!--################### Pagination links #################################################-->
-<div class="post-section mdl-typography--text-justify">
+<!-- <div class="post-section mdl-typography--text-justify">
   <div class="post-grid mdl-grid">
-    <div class="post-content paginator-btn post-grid mdl-cell mdl-cell--3-offset-desktop mdl-cell--1-offset-tablet mdl-cell--6-col mdl-cell--6-col-tablet mdl-cell--4-col-phone">
-      {% if paginator.previous_page %}
-	    <a href="{{ site.url }}{{ paginator.previous_page_path }}" class="previous">
+    <div class="post-content site-btn post-grid mdl-cell mdl-cell--3-offset-desktop mdl-cell--1-offset-tablet mdl-cell--6-col mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+      {% if site.previous_page %}
+	    <a href="{{ site.url }}{{ site.previous_page_path }}" class="previous">
 	    	<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
 	          Prev
 	        </button>
@@ -52,10 +52,10 @@ style: blog
 			Prev
 		</button>
 	  {% endif %}
-	  <!-- <span class="page_number ">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span> -->
+	  <span class="page_number ">Page: {{ site.page }} of {{ site.total_pages }}</span>
 	  <div class="mdl-layout-spacer"></div>
-	  {% if paginator.next_page %}
-	    <a href="{{ site.url }}{{ paginator.next_page_path }}" class="next">
+	  {% if site.next_page %}
+	    <a href="{{ site.url }}{{ site.next_page_path }}" class="next">
 	    	<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
 	          Next
 	        </button>
@@ -68,4 +68,4 @@ style: blog
 
     </div>
   </div>
-</div>
+</div> -->
