@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: article
 title: Beginner's Guide to IMU
 comments: true
 author: Hemant Kumar, EE, Y14
