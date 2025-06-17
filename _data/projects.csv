@@ -1,4 +1,7 @@
 name,details,image,link
+Micromouse,,micromouse.png
+Fastest Line Follower,,flf.png
+Inverted Pendulum,,pendulum.jpeg
 Autonomous  Chess Playing Robot,"Play Chess against a robot!<br>An ingeniously designed robotic arm for playing chess against a human. Also, get ready to face defeat by the game-theory algorithm in   plac",chess.jpg,https://www.youtube.com/watch?v=qM6v5F6DXPY&index=1&list=PLJnixDjbax5djwgONCMpo3PXhzUpyR_XX
 Transformers,What if Optimus Prime graced his presence on our club?<br>A 2014 Summer Project aimed at building prototypes of transformer bots!,transformersm.jpg,https://github.com/RoboticsClubIITK/2014_Transformer
 Gaming Console,"What if your keyboard and mouse got replaced by a real life gun in your favourite games?<br>The project is aimed at providing a real life gaming experience integrating high end sensors, microprocessor and a little bit of coding for you to be able to play Counter Strike as you are in the game!",gc.jpg,https://github.com/RoboticsClubIITK/2016_Gaming-Console
