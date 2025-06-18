@@ -1,22 +1,67 @@
-<div class="header mdl-layout__header mdl-layout__header--waterfall mdl-layout--no-desktop-drawer-button">
+<link
+  href="https://fonts.googleapis.com/icon?family=Material+Icons"
+  rel="stylesheet"
+/>
+<div
+  class="header mdl-layout__header mdl-layout__header--waterfall mdl-layout--no-desktop-drawer-button"
+>
   <div class="mdl-layout__header-row layout-header">
     <span class="title mdl-layout-title">
-      <a href="{{ site.url }}"><img class="logo-image" src={{ "/assets/images/logo.png" | absolute_url }}></a>
+      <a href="{{ site.url }}"
+        ><img class="logo-image" src={{ "/assets/images/logo.png" | absolute_url
+        }}></a
+      >
     </span>
     <span class="mobile-title mdl-layout-title">
-       <center><img class="logo-image" src={{ "/assets/images/mobile-logo.png" | absolute_url }}></center>
+      <center>
+        <img class="logo-image" src={{ "/assets/images/mobile-logo.png" |
+        absolute_url }}>
+      </center>
     </span>
     <!-- Add spacer, to align navigation to the right in desktop -->
     <div class="mdl-layout-spacer"></div>
     <!-- Navigation -->
     <div class="navigation-container">
       <nav class="navigation mdl-navigation">
-        <a class="mdl-navigation__link mdl-typography--text-uppercase nav-proj" href="{{ site.url }}/projects/">Projects</a>
-        <a class="mdl-navigation__link mdl-typography--text-uppercase nav-team" href="https://docs.google.com/forms/d/e/1FAIpQLSenf6sITJDo3P35w1xNncTSotWzky1q8GSFf7qwremIvWV0AA/viewform" target="_blank">Components</a>
-        <a class="mdl-navigation__link mdl-typography--text-uppercase nav-team" href="{{ site.url }}/team/">Team</a>
-        <a class="mdl-navigation__link mdl-typography--text-uppercase nav-alumni" href="{{ site.url }}/alumni/">Alumni</a>
-        <a class="mdl-navigation__link mdl-typography--text-uppercase nav-blog" href="{{ site.url }}/blog/">Blogs</a>
-        <a class="mdl-navigation__link mdl-typography--text-uppercase nav-advisors" href="{{ site.url }}/faculty/">Faculty</a>
+        <a
+          class="mdl-navigation__link mdl-typography--text-uppercase nav-proj"
+          href="{{ site.url }}/projects/"
+          >Projects</a
+        >
+
+        <a
+          class="mdl-navigation__link mdl-typography--text-uppercase nav-team"
+          href="{{ site.url }}/team/"
+          >Team</a
+        >
+        <a
+          class="mdl-navigation__link mdl-typography--text-uppercase nav-alumni"
+          href="{{ site.url }}/alumni/"
+          >Alumni</a
+        >
+        <a
+          class="mdl-navigation__link mdl-typography--text-uppercase nav-blog"
+          href="{{ site.url }}/blog/"
+          >Blogs</a
+        >
+        <a
+          class="mdl-navigation__link mdl-typography--text-uppercase nav-advisors"
+          href="{{ site.url }}/faculty/"
+          >Faculty</a
+        >
+        <a
+          class="mdl-navigation__link mdl-typography--text-uppercase nav-team"
+          href="https://docs.google.com/forms/d/e/1FAIpQLSenf6sITJDo3P35w1xNncTSotWzky1q8GSFf7qwremIvWV0AA/viewform"
+          target="_blank"
+          >Components</a
+        >
+        <!-- <a
+          class="mdl-navigation__link mdl-typography--text-uppercase nav-advisors"
+          href="{{ site.url }}/tutorials/"
+          >Tutorials</a
+        > -->
+        <!-- Archive Dropdown -->
+
         <!-- <a class="mdl-navigation__link mdl-typography--text-uppercase nav-article" href="{{ site.url }}/articles/">Articles</a> -->
       </nav>
     </div>
@@ -25,15 +70,44 @@
 <!-- ####################### drawer for mobile view ########################################### -->
 <div class="mdl-layout__drawer">
   <span class="mdl-layout-title">
-     <a href="{{ site.url }}"><img class="logo-image" src={{ "/assets/images/drawer-logo.png" | absolute_url }}></a>
+    <a href="{{ site.url }}"
+      ><img class="logo-image" src={{ "/assets/images/drawer-logo.png" |
+      absolute_url }}></a
+    >
   </span>
   <nav class="drawer mdl-navigation">
-    <a class="mdl-navigation__link mdl-typography--text-uppercase nav-proj" href="{{ site.url }}/projects/">Projects</a>
-    <a class="mdl-navigation__link mdl-typography--text-uppercase nav-team" href="https://docs.google.com/forms/d/e/1FAIpQLSenf6sITJDo3P35w1xNncTSotWzky1q8GSFf7qwremIvWV0AA/viewform" target="_blank">Components</a>
-    <a class="mdl-navigation__link mdl-typography--text-uppercase nav-team" href="{{ site.url }}/team/">Team</a>
-    <a class="mdl-navigation__link mdl-typography--text-uppercase nav-alumni" href="{{ site.url }}/alumni/">Alumni</a>
-    <a class="mdl-navigation__link mdl-typography--text-uppercase nav-blog" href="{{ site.url }}/blog/">Blogs</a>
-    <a class="mdl-navigation__link mdl-typography--text-uppercase nav-advisors" href="{{ site.url }}/faculty/">Faculty</a>
+    <a
+      class="mdl-navigation__link mdl-typography--text-uppercase nav-proj"
+      href="{{ site.url }}/projects/"
+      >Projects</a
+    >
+
+    <a
+      class="mdl-navigation__link mdl-typography--text-uppercase nav-team"
+      href="{{ site.url }}/team/"
+      >Team</a
+    >
+    <a
+      class="mdl-navigation__link mdl-typography--text-uppercase nav-alumni"
+      href="{{ site.url }}/alumni/"
+      >Alumni</a
+    >
+    <a
+      class="mdl-navigation__link mdl-typography--text-uppercase nav-blog"
+      href="{{ site.url }}/blog/"
+      >Blogs</a
+    >
+    <a
+      class="mdl-navigation__link mdl-typography--text-uppercase nav-advisors"
+      href="{{ site.url }}/faculty/"
+      >Faculty</a
+    >
+    <a
+      class="mdl-navigation__link mdl-typography--text-uppercase nav-team"
+      href="https://docs.google.com/forms/d/e/1FAIpQLSenf6sITJDo3P35w1xNncTSotWzky1q8GSFf7qwremIvWV0AA/viewform"
+      target="_blank"
+      >Components</a
+    >
     <!-- <a class="mdl-navigation__link mdl-typography--text-uppercase nav-article" href="{{ site.url }}/articles/">Articles</a> -->
   </nav>
 </div>

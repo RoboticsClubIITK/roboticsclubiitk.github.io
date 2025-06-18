@@ -9,10 +9,10 @@ permalink: /team/
 	<h1 class="section-title-01">Coordinators</h1>
 	<h2 class="section-title-02">Coordinators</h2>
 	<div class="card-wrapper">
-		{% for cordi in site.data.cordis %}
+		{% for cordi in site.data.cordis_25_26 %}
 		<div class="card">
 		  <div class="card-image">
-			<img src="../assets/images/cordi/{{ cordi.image }}" alt="profile-card">
+			<img src="../assets/images/cordi_25_26/{{ cordi.image }}" alt="profile-card">
 		  </div> 
 		  <ul class="social-icons">
 			{% if cordi.instagram %}
@@ -40,10 +40,10 @@ permalink: /team/
 	<h1 class="section-title-01">Secretaries</h1>
 	<h2 class="section-title-02">Secretaries</h2>
 	<div class="card-wrapper">
-		{% for seci in site.data.seci_24_25 %}
+		{% for seci in site.data.seci_25_26 %}
 		<div class="card">
 		  <div class="card-image">
-			<img src="../assets/images/seci_24_25/{{ seci.image }}" alt="profile-card">
+			<img src="../assets/images/seci_25_26/{{ seci.image }}" alt="profile-card">
 		  </div> 
 		  <ul class="social-icons">
 			{% if seci.instagram %}
@@ -58,7 +58,7 @@ permalink: /team/
 		  </ul>
 		  <div class="details">
 			<h2> {{ seci.name }}</h2>
-			<p class="job-title">{{ seci.mob }}</p>
+			<!-- <p class="job-title">{{ seci.mob }}</p> -->
 			<p class="job-title">{{ seci.email }}</p>
 		  </div>
 		</div>

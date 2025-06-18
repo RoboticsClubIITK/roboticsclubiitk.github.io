@@ -11,8 +11,8 @@ permalink: /alumni/
 	{% assign counter = 0 %}
 	{% for alumni in site.data.alumni %}
 	{% if count==0 %}
-	<h1 class="section-title-01">20{{ 23 | minus:counter }}-20{{ 24 | minus:counter }}</h1>
-	<h2 class="section-title-02">20{{ 23 | minus:counter }}-20{{ 24 | minus:counter }}</h2>
+	<h1 class="section-title-01">20{{ 24 | minus:counter }}-20{{ 25 | minus:counter }}</h1>
+	<h2 class="section-title-02">20{{ 24 | minus:counter }}-20{{ 25 | minus:counter }}</h2>
 	<div class="card-wrapper">
 	{% endif %}
 		{% assign count = count | plus:1 %}
@@ -22,15 +22,15 @@ permalink: /alumni/
 			</div>
 			<ul class="social-icons">
 				{% if alumni.facebook %}
-				<li><a target="_blank" href="https://www.facebook.com/{{ alumni.facebook }}"><i
+				<li><a target="_blank" href="{{ alumni.facebook }}"><i
 							class="fab fa-facebook-f"></i></a></li>
 				{% endif %}
 				{% if alumni.linkedin %}
-				<li><a target="_blank" href="https://www.linkedin.com/in/{{ alumni.linkedin }}"><i
+				<li><a target="_blank" href="{{ alumni.linkedin }}"><i
 							class="fab fa-linkedin-in"></i></a></li>
 				{% endif %}
 				{% if alumni.github %}
-				<li><a target="_blank" href="https://www.github.com/{{ alumni.github }}"><i class="fab fa-github"></i></a></li>
+				<li><a target="_blank" href="{{ alumni.github }}"><i class="fab fa-github"></i></a></li>
 				{% endif %}
 			</ul>
 			<div class="details">
@@ -39,17 +39,23 @@ permalink: /alumni/
 				<!-- <p class="job-title">{{ cordi.email }}</p> -->
 			</div>
 		</div>
-		{% if count == 3 and counter == 3 %}
+		{% if count == 3 and counter == 4 %}
 		{% assign count = 0 %}
 		{% assign counter = counter | plus:1 %}
+	
 	</div>
 		{% endif %}
-		{% if count == 3 and counter == 4 %}
+		{% if count == 3 and counter == 5 %}
 		{% assign count = 0 %}
 		{% assign counter = counter | plus:1 %}
 	</div>
 		{% endif %}
 		{% if count == 4 %}
+		{% assign count = 0 %}
+		{% assign counter = counter | plus:1 %}
+	</div>
+		{% endif %}
+		{% if count == 3 and counter == 0 %}
 		{% assign count = 0 %}
 		{% assign counter = counter | plus:1 %}
 	</div>
