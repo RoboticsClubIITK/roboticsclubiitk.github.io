@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>IRC 2026 | Robotics Club IIT Kanpur</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.6;
+      background-color: #f5f5f5;
+      color: #222;
+    }
+
+    header {
+      background: #0b1c2d;
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin-bottom: 10px;
+    }
+
+    section {
+      max-width: 1100px;
+      margin: auto;
+      padding: 40px 20px;
+      background: white;
+      margin-top: 20px;
+    }
+
+    h2 {
+      color: #0b1c2d;
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 5px;
+    }
+
+    .placeholder {
+      background: #ddd;
+      border: 2px dashed #999;
+      text-align: center;
+      padding: 40px;
+      margin: 20px 0;
+      color: #555;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    footer {
+      background: #0b1c2d;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    .gallery-grid img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .gallery-grid img:hover {
+      transform: scale(1.03);
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.25);
+    }
+
+  </style>
+</head>
+
+<body>
+
+<header>
+  <div class="placeholder">
+    <img src="images/Robo_Club_Logo.png" alt="Rover" style="width:50%; height:auto;">
+  </div>
+  <h1>International Rover Challenge 2026</h1>
+  <p>Robotics Club, IIT Kanpur</p>
+</header>
+
+<section>
+  <h2>About the Challenge</h2>
+  <p>
+    The International Rover Challenge (IRC) is a global student space-robotics competition
+    that simulates real Mars-mission tasks. IRC 2026 challenges teams to design and operate
+    robust, reliable rovers capable of navigation, manipulation, and scientific exploration
+    in harsh terrain.
+  </p>
+</section>
+
+<section>
+  <h2>Our Vision & Mission</h2>
+  <p>
+    Our vision is to build a dependable, modular, and field-ready rover inspired by real
+    planetary exploration systems. The rover is designed to be reliable, easy to maintain,
+    and capable of performing all IRC 2026 missions with stability and safety.
+  </p>
+</section>
+
+<section>
+  <h2>The Rover</h2>
+  <div class="placeholder">
+    <img src = "images/rover_photo.png" alt="roverphoto" style="width:50%; height:auto;">
+  </div>
+
+  <p>
+    The rover uses a rocker-bogie based mobility system driven by six motors, providing
+    stability over uneven terrain. A carbon-fiber backbone ensures strength while keeping
+    weight low. The design emphasizes modularity and ease of maintenance.
+  </p>
+</section>
+
+<section>
+  <h2>Subsystems</h2>
+
+  <div class="grid">
+    <div>
+      <h3>Mechanical & Mobility</h3>
+      <p>
+        Differential-bar rocker-bogie suspension, carbon-fiber structural members,
+        bearing-supported joints, and modular chassis design.
+      </p>
+    </div>
+
+    <div>
+      <h3>Robotic Arm & Gripper</h3>
+      <p>
+        A 6-DOF arm with linear actuators and stepper-driven gripper capable of lifting
+        heavy payloads while maintaining balance and reach.
+      </p>
+    </div>
+
+    <div>
+      <h3>Biological System</h3>
+      <p>
+        Soil analysis using spectrophotometry and labile carbon testing to detect biological
+        signatures, with planned protein-based assays for future work.
+      </p>
+    </div>
+
+    <div>
+      <h3>Electronics & Communication</h3>
+      <p>
+        Multi-rail power system, distributed microcontroller architecture, long-range
+        telemetry, GPS, IMU feedback, and redundant 5.8 GHz FPV video.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Team Structure</h2>
+
+  <div class="placeholder">
+    <img src = "images/flowchart.png" alt="flowChart">
+  </div>
+
+  <p>
+    The team consists of students from multiple departments, organized into Mechanical,
+    Electronics, Software, and Systems Integration sub-teams. This structure ensures parallel
+    development and reliable system integration.
+  </p>
+</section>
+
+<section>
+  <h2>Gallery</h2>
+
+  <div class="gallery-grid">
+    <img src="images/gallery1.jpeg" alt="Gallery image 1">
+    <img src="images/gallery2.jpeg" alt="Gallery image 2">
+    <img src="images/gallery3.jpeg" alt="Gallery image 3">
+    <img src="images/gallery4.jpeg" alt="Gallery image 4">
+  </div>
+</section>
+
+
+<footer>
+  <p>
+    Robotics Club, IIT Kanpur<br>
+    International Rover Challenge 2026
+  </p>
+</footer>
+
+</body>
+</html>
