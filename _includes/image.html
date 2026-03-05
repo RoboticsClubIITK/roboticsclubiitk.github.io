@@ -1,8 +1,0 @@
-<figure class="blog-image" style="width: {{include.w}};">
-	{% if include.web %}
-  		<img class="blog-img" src="{{ include.url }}" alt="{{ include.caption }}">
-  	{% else %}
-  		<img class="blog-img" src="{{site.url}}/blog/images/{{ include.url }}" alt="{{ include.caption }}">
-  	{% endif %}
-  <figcaption style="font-size: 80%"><i>{{ include.caption }}</i></figcaption>
-</figure>
