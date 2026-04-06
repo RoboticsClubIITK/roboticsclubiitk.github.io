@@ -58,6 +58,7 @@ const teamData = [
     { name: "Arnav Gupta", role: "Mechanical", email: "arnavu24@iitk.ac.in", image: "/IRC_Team/Arnav Gupta.jpeg" },
     { name: "Sushil Krishna K", role: "Software", email: "sushilk24@iitk.ac.in", image: "/IRC_Team/Sushil Krishna K.jpg" },
     { name: "Manant Singhal", role: "Mechanical", email: "msinghal24@iitk.ac.in", image: "/IRC_Team/Manant Singhal.jpg" },
+    { name: "Naivedya Jain", role: "Mechanical", email: "naivedyaj24@iitk.ac.in", image: "/IRC_Team/Naivedya Jain.jpg" },
 ];
 
 export default function IRC2027Page() {
