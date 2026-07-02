@@ -4,6 +4,7 @@ import "./globals.css";
 import { cn } from "@/lib/utils";
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
+import { Providers } from "./providers";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -29,7 +30,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="dark">
+    /* 💡 CHANGED: Added suppressHydrationWarning and removed the hardcoded className="dark" */
+    <html lang="en" suppressHydrationWarning>
       <body
         className={cn(
           "min-h-screen bg-background font-sans antialiased flex flex-col",
@@ -37,9 +39,12 @@ export default function RootLayout({
           outfit.variable
         )}
       >
-        <Navbar />
-        <main className="flex-1">{children}</main>
-        <Footer />
+        {/* 💡 CHANGED: Wrapped everything inside <Providers> */}
+        <Providers>
+          <Navbar />
+          <main className="flex-1">{children}</main>
+          <Footer />
+        </Providers>
       </body>
     </html>
   );
