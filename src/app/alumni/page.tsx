@@ -8,6 +8,12 @@ import { Button } from "@/components/ui/button";
 import Image from "next/image";
 
 const alumniData = {
+    "2025-26": [
+        { name: "Shivansh Gupta", role: "Coordinator", image: "/Alumni/2025 - 26/Shivansh.jpeg", linkedin: "https://www.linkedin.com/in/shivansh-gupta-5a4870285" },
+        { name: "Chinar Mhatre", role: "Coordinator", image: "/Alumni/2025 - 26/Chinar.jpg", linkedin: "https://www.linkedin.com/in/chinar-mhatre-a03b03244/" },
+        { name: "Ridhima Sharma", role: "Coordinator", image: "/Alumni/2025 - 26/Ridhima.jpg", linkedin: "#" },
+        { name: "Soumyajit Halder", role: "Coordinator", image: "/Alumni/2025 - 26/Soumyajit.jpeg", linkedin: "https://www.linkedin.com/in/soumyajit-halder-92ba00287/" }
+],
     "2024-25": [
         { name: "Aayush Jaiswal", role: "Coordinator", image: "/Alumni/2024 - 25/Aayush Jaiswal.jpeg", linkedin: "https://www.linkedin.com/in/aayush-jaiswal-431b34223/" },
         { name: "Manvi Bengani", role: "Coordinator", image: "/Alumni/2024 - 25/manvi Bengani.jpg", linkedin: "https://www.linkedin.com/in/manvi-bengani-7397641b0/" },
@@ -126,7 +132,7 @@ const AlumniCard = ({ member }: { member: any }) => {
 };
 
 export default function AlumniPage() {
-    const [selectedYear, setSelectedYear] = useState("2024-25");
+    const [selectedYear, setSelectedYear] = useState("2025-26");
     const years = Object.keys(alumniData);
 
     return (
