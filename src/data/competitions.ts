@@ -34,4 +34,18 @@ export const competitions: Competition[] = [
         status: "International",
         link: "https://robofest.gujarat.gov.in/Robofest/RoboCategory",
     },
+    {
+        id: "eyantra",
+        title: "e-Yantra Robotics Competition",
+        description: "A flagship project hosted by IIT Bombay where teams tackle complex, hardware-driven real-world themes, implementing advanced embedded systems and control algorithms.",
+        status: "National",
+        link: "https://portal.e-yantra.org",
+    },
+    {
+        id: "lam-fgc",
+        title: "Lam Research Global Challenge",
+        description: "An Olympics-style international robotics championship uniting student teams from over 190 countries to build and program custom robots that solve crucial global issues.",
+        status: "International",
+        link: "https://first.global/fgc/",
+    },
 ];

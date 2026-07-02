@@ -5,9 +5,9 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils";
-import { Bot, Menu, X } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
+import { ThemeToggle } from "./ThemeToggle";
 
 const navItems = [
     { name: "Home", href: "/" },
@@ -17,11 +17,10 @@ const navItems = [
     { name: "Competitions", href: "/competitions" },
     { name: "Gallery", href: "/gallery" },
     { name: "Resources", href: "/resources" },
-    // IRC 2027 and Alumni might be secondary or in a "More" dropdown, 
-    // but for now keeping them accessible.
     { name: "Alumni", href: "/alumni" },
     { name: "Blogs", href: "/blogs" },
     { name: "IRC 2027", href: "/irc" },
+    { name: "Outreach Activities", href: "/outreach-activities" },
 ];
 
 export function Navbar() {
@@ -29,67 +28,74 @@ export function Navbar() {
     const pathname = usePathname();
 
     return (
-        <header className="sticky top-0 z-50 w-full bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 border-b border-border/40">
-            <div className="container flex h-16 max-w-screen-2xl items-center justify-between px-4 md:px-8">
-                <Link className="flex items-center space-x-2" href="/">
-                    {/* <Bot className="h-8 w-8 text-primary" /> */}
+        <header className="sticky top-0 z-50 w-full bg-white/90 dark:bg-zinc-950/80 backdrop-blur-md border-b border-slate-200 dark:border-white/10 text-slate-900 dark:text-zinc-100 transition-colors duration-300">
+            <div className="w-full flex h-16 items-center justify-between px-4 md:px-6">
+                <Link className="flex items-center" href="/">
                     <Image
                         src="/logo.png"
                         alt="Robotics Club IITK Logo"
-                        width={1000}
-                        height={1000}
+                        width={220}
+                        height={55}
                         quality={100}
-                        className="h-10 w-auto object-contain"
+                        className="h-10 w-auto object-contain invert dark:invert-0 transition-all duration-300"
                         priority
                     />
                 </Link>
 
-                {/* Desktop Nav */}
-                <nav className="hidden lg:flex items-center gap-6 text-sm font-medium">
-                    {navItems.map((item) => (
-                        <Link
-                            key={item.href}
-                            href={item.href}
-                            className={cn(
-                                "transition-colors hover:text-foreground/80",
-                                pathname === item.href ? "text-cta" : "text-foreground/60"
-                            )}
-                        >
-                            {item.name}
-                        </Link>
-                    ))}
-                </nav>
+                {/* Right Actions Block */}
+                <div className="flex items-center gap-4">
+                    {/* Desktop Nav */}
+                    <nav className="hidden lg:flex items-center gap-5 text-sm font-medium">
+                        {navItems.map((item) => (
+                            <Link
+                                key={item.href}
+                                href={item.href}
+                                className={cn(
+                                    "transition-colors duration-200 hover:text-blue-600 dark:hover:text-sky-400 font-semibold",
+                                    pathname === item.href 
+                                        ? "text-blue-600 dark:text-sky-400" 
+                                        : "text-slate-600 dark:text-zinc-400"
+                                )}
+                            >
+                                {item.name}
+                            </Link>
+                        ))}
+                    </nav>
 
-                {/* Mobile Filter */}
-                <button
-                    className="flex items-center space-x-2 lg:hidden"
-                    onClick={() => setIsOpen(!isOpen)}
-                >
-                    {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
-                    <span className="sr-only">Toggle Menu</span>
-                </button>
+                    {/* Theme Toggle Element */}
+                    <ThemeToggle />
+
+                    {/* Mobile Menu Trigger */}
+                    <button
+                        className="flex items-center lg:hidden text-slate-800 dark:text-zinc-200 p-1"
+                        onClick={() => setIsOpen(!isOpen)}
+                    >
+                        {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+                        <span className="sr-only">Toggle Menu</span>
+                    </button>
+                </div>
             </div>
 
-            {/* Mobile Menu */}
+            {/* Mobile Expandable Panel */}
             <AnimatePresence>
                 {isOpen && (
                     <motion.div
                         initial={{ opacity: 0, height: 0 }}
                         animate={{ opacity: 1, height: "auto" }}
                         exit={{ opacity: 0, height: 0 }}
-                        className="lg:hidden border-b bg-background"
+                        className="lg:hidden border-b border-slate-200 dark:border-white/10 bg-white dark:bg-zinc-950 transition-colors duration-300"
                     >
-                        <div className="container flex flex-col gap-4 p-4">
+                        <div className="flex flex-col gap-3 p-4">
                             {navItems.map((item) => (
                                 <Link
                                     key={item.href}
                                     href={item.href}
                                     onClick={() => setIsOpen(false)}
                                     className={cn(
-                                        "text-sm font-medium transition-colors hover:text-primary",
+                                        "text-sm font-semibold transition-colors py-1",
                                         pathname === item.href
-                                            ? "text-cta"
-                                            : "text-foreground/60"
+                                            ? "text-blue-600 dark:text-sky-400"
+                                            : "text-slate-600 dark:text-zinc-400"
                                     )}
                                 >
                                     {item.name}
@@ -102,3 +108,4 @@ export function Navbar() {
         </header>
     );
 }
+// clean pipleline reset

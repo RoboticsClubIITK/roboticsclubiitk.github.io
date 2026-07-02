@@ -16,7 +16,51 @@ const projects = [
             "A rover is an autonomous or remote-controlled vehicle designed to traverse extraterrestrial terrain. Equipped with specialized sensors and robust suspension, it explores planetary surfaces, collects vital geological samples, and searches for biological presence",
         image: "/projects/rover-f.png", // Placeholder
         techStack: ["ROS", "Electronics", "Rockerbogie", "Differential"],
+        docLink: "/rover-documentation.pdf",
+    },
+    {
+        id: "Quadruped",
+        title: "Quadruped Robot",
+        category: "Legged Robotics",
+        description:
+            "A bio-inspired four-legged robot designed to mimic animal-like walking gaits for stable locomotion. It implements Inverse Kinematics to coordinate its 12-DOF servo joints, allowing the platform to navigate uneven terrain by lifting and placing each leg while maintaining constant static balance via real-time remote mapping.",
+        image: "/projects/quadruped.jpg",
+        techStack: ["Inverse Kinematics", "Gait Planning", "PID", "12-DOF Servo Control", "Wireless RC"],
         docLink: "#",
+        githubLink: "#",
+    },
+    {
+        id: "AutoNav",
+        title: "Autonomous Navigation Robot",
+        category: "Autonomous Vehicles",
+        description:
+            "An intelligent mobile robot platform built to navigate indoor and outdoor environments without human intervention. Using a 2D LiDAR scanner paired with wheel encoders and an IMU, the bot performs sensor fusion to map unknown spaces, localize its precise position, and compute real-time collision-free paths around dynamic obstacles.",
+        image: "/projects/autonav.jpg",
+        techStack: ["LiDAR", "Sensor Fusion", "Mapping & Localization", "Path Planning", "IMU & Encoders"],
+        docLink: "#",
+        githubLink: "#",
+    },
+    {
+        id: "DumE",
+        title: "DUM E (Robotic Manipulator)",
+        category: "Robotic Arms & Manipulators",
+        description:
+            "A 4-DOF desktop robotic arm equipped with a mechanical gripper designed to execute smooth pick-and-place and manipulation tasks. Integrated with a computer vision pipeline, the system tracks real-time human hand gestures and depth profiles, utilizing Inverse Kinematics and PID control to translate user movements into precise, physical actuator trajectories.",
+        image: "/projects/dume.png",
+        techStack: ["Computer Vision", "Gesture Detection", "Inverse Kinematics", "PID Control", "Manipulator Design"],
+        docLink: "#",
+        githubLink: "#",
+    },
+    {
+        id: "GoalkeeperBot",
+        title: "Goalkeeper Robot",
+        category: "Computer Vision & Actuation",
+        description:
+            "An elite reactive robotic system engineered to track, predict, and physically intercept fast-moving projectiles in real-time. It pairs low-latency OpenCV tracking with predictive trajectory filtration models, calculating the precise intercept point on the fly to drive high-speed digital servos for instantaneous defensive blocking.",
+        image: "/projects/goalkeeper.png",
+        techStack: ["OpenCV", "Trajectory Prediction", "PID Control", "Teensy", "Digital Servos"],
+        docLink: "#",
+        githubLink: "#",
     },
     {
         id: "Hexapod",
